@@ -50,10 +50,6 @@ console.log("Copying icons and images...");
 const srcImagesDir = path.join(tmpDir, 'src', 'images');
 const destImagesDir = path.join(__dirname, 'images');
 
-if (fs.existsSync(destImagesDir)) {
-  fs.rmSync(destImagesDir, { recursive: true, force: true });
-}
-
 function copyDirRecursiveSync(source, target) {
   if (!fs.existsSync(target)) {
     fs.mkdirSync(target, { recursive: true });
