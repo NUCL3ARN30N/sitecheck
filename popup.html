@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteCheck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Playfair+Display:ital,wght@0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="ambg"></div>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+      <div class="logo-text">
+        <span class="p1">Site</span><span class="p2">Check</span>
+      </div>
+    </div>
+    <div class="hlinks">
+      <a href="https://genius-space.org" target="_blank" rel="noopener noreferrer" class="hlink"><i class="fa-solid fa-house"></i></a>
+      <a href="https://github.com/NUCL3ARN30N/sitecheck" target="_blank" rel="noopener noreferrer" class="hlink"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </header>
+
+  <div class="popup-content">
+
+    <div class="domain-bar">
+      <i class="fa-solid fa-globe"></i>
+      <span id="current-domain">Detecting...</span>
+      <span class="domain-badge hidden" id="tech-count"></span>
+    </div>
+
+    <div class="tabs-row">
+      <button class="tab active" data-target="tab-tech">
+        <i class="fa-solid fa-microchip"></i> Technologies
+      </button>
+      <button class="tab" data-target="tab-details">
+        <i class="fa-solid fa-circle-info"></i> Site Details
+      </button>
+    </div>
+
+    <div class="tab-content active" id="tab-tech">
+      <div id="loading" class="state-message">
+        <i class="fa-solid fa-spinner fa-spin"></i> Analyzing...
+      </div>
+      <div id="no-results" class="state-message hidden">
+        <i class="fa-solid fa-ghost"></i> No recognized technologies found.
+      </div>
+      <div id="results" class="results-container hidden"></div>
+      <div id="export-bar" class="export-bar hidden">
+        <button id="export-csv" class="export-btn">
+          <i class="fa-solid fa-file-csv"></i> Export CSV
+        </button>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-details">
+      <div id="details-loading" class="state-message">
+        <i class="fa-solid fa-spinner fa-spin"></i> Fetching details...
+      </div>
+      <div id="details-content" class="details-container hidden">
+        <div class="panel">
+          <div class="ph"><i class="fa-solid fa-location-dot"></i><span>Geolocation</span></div>
+          <div class="pb"><div class="detail-val" id="val-geo">—</div></div>
+        </div>
+        <div class="panel">
+          <div class="ph"><i class="fa-solid fa-server"></i><span>IP Address</span></div>
+          <div class="pb"><div class="detail-val mono" id="val-ip">—</div></div>
+        </div>
+        <div class="panel">
+          <div class="ph"><i class="fa-solid fa-network-wired"></i><span>DNS (A Record)</span></div>
+          <div class="pb"><div class="detail-val mono" id="val-dns">—</div></div>
+        </div>
+        <div class="panel">
+          <div class="ph"><i class="fa-solid fa-building-columns"></i><span>WHOIS / Registrar</span></div>
+          <div class="pb"><div class="detail-val" id="val-whois">—</div></div>
+        </div>
+        <div class="panel">
+          <div class="ph"><i class="fa-solid fa-envelope"></i><span>Emails Found</span></div>
+          <div class="pb"><div class="detail-val" id="val-emails">None</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
