@@ -270,6 +270,74 @@ header {
   font-size: 12px;
 }
 
+/* Light mode */
+body.light-mode {
+  --bg: #f4f5f8;
+  --bg2: #ebebef;
+  --card: #ffffff;
+  --inp: #f0f0f5;
+  --hov: #e8e8f0;
+  --brd: #d8d8e4;
+  --t1: #1c1b2a;
+  --t2: #5e5c72;
+  --t3: #9896ac;
+  --sh: 0 8px 48px rgba(0, 0, 0, .1);
+}
+body.light-mode header {
+  background: rgba(8, 8, 10, .92);
+  border-bottom-color: #2a2a33;
+}
+body.light-mode .hlink {
+  background: #16161b;
+  border-color: #2a2a33;
+  color: #9896a3;
+}
+body.light-mode .hlink:hover {
+  background: #26262e;
+  border-color: #6b6878;
+  color: #f0eff4;
+}
+body.light-mode .ambg::before {
+  background: radial-gradient(circle, rgba(108, 92, 231, .07) 0%, transparent 70%);
+}
+body.light-mode .ambg::after {
+  background: radial-gradient(circle, rgba(253, 121, 168, .05) 0%, transparent 70%);
+}
+
+/* Settings */
+.settings-container {
+  display: flex; flex-direction: column; gap: 8px;
+  overflow-y: auto; flex: 1; min-height: 0; padding-bottom: 4px;
+}
+.setting-card {
+  background: var(--card); border: 1px solid var(--brd);
+  border-radius: var(--r2); overflow: hidden; flex-shrink: 0;
+}
+.setting-card-header {
+  padding: 9px 14px; border-bottom: 1px solid var(--brd);
+  display: flex; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 600; color: var(--t2);
+  text-transform: uppercase; letter-spacing: .05em;
+}
+.setting-card-header i { color: var(--acl); font-size: 12px; }
+.setting-card-desc {
+  padding: 8px 14px 0;
+  font-size: 11px; color: var(--t3); line-height: 1.55;
+}
+.setting-card-desc strong { color: var(--t2); }
+.setting-opts { padding: 8px; display: flex; gap: 6px; }
+.setting-opt {
+  flex: 1; padding: 8px 10px;
+  background: var(--inp); border: 1px solid var(--brd);
+  border-radius: var(--r1); color: var(--t2);
+  font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500;
+  cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px;
+  transition: all var(--tr);
+}
+.setting-opt:hover { background: var(--hov); color: var(--t1); }
+.setting-opt.active { background: var(--acg); border-color: var(--ac); color: var(--acl); }
+.setting-opt i { font-size: 11px; }
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }

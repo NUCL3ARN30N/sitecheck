@@ -41,6 +41,9 @@
       <button class="tab" data-target="tab-details">
         <i class="fa-solid fa-circle-info"></i> Site Details
       </button>
+      <button class="tab" data-target="tab-settings">
+        <i class="fa-solid fa-gear"></i> Settings
+      </button>
     </div>
 
     <div class="tab-content active" id="tab-tech">
@@ -83,6 +86,43 @@
           <div class="ph"><i class="fa-solid fa-envelope"></i><span>Emails Found</span></div>
           <div class="pb"><div class="detail-val" id="val-emails">None</div></div>
         </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-settings">
+      <div class="settings-container">
+
+        <div class="setting-card">
+          <div class="setting-card-header">
+            <i class="fa-solid fa-palette"></i>
+            <span>Theme</span>
+          </div>
+          <div class="setting-opts">
+            <button class="setting-opt" data-setting="theme" data-value="dark">
+              <i class="fa-solid fa-moon"></i> Dark
+            </button>
+            <button class="setting-opt" data-setting="theme" data-value="light">
+              <i class="fa-solid fa-sun"></i> Light
+            </button>
+          </div>
+        </div>
+
+        <div class="setting-card">
+          <div class="setting-card-header">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Scan Mode</span>
+          </div>
+          <div class="setting-card-desc">When to scan pages for technologies. <strong>On Click</strong> is recommended to keep browsing fast.</div>
+          <div class="setting-opts">
+            <button class="setting-opt" data-setting="loadMode" data-value="on-click">
+              <i class="fa-solid fa-computer-mouse"></i> On Click
+            </button>
+            <button class="setting-opt" data-setting="loadMode" data-value="always">
+              <i class="fa-solid fa-bolt"></i> Always
+            </button>
+          </div>
+        </div>
+
       </div>
     </div>
 

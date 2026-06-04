@@ -4,6 +4,7 @@
 
   let technologies = {};
   let detected = [];
+  let pendingScan = false;
 
   const addDetected = (name) => {
     if (!detected.some(item => item.name === name)) {
@@ -11,9 +12,6 @@
     }
   };
 
-  // Safely send a message to the background, guarding against an invalidated
-  // extension context (happens when the extension reloads while the page is open)
-  // and suppressing unchecked-lastError warnings by always consuming the error.
   function safeSend(msg) {
     try {
       if (!chrome.runtime?.id) return;
@@ -22,6 +20,18 @@
       // extension context invalidated — orphaned content script, nothing to do
     }
   }
+
+  // Register listener immediately so a RESCAN_DOM that arrives during init is not lost
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message.type === 'RESCAN_DOM') {
+      if (Object.keys(technologies).length > 0) {
+        scanDOM();
+      } else {
+        pendingScan = true;
+      }
+      sendResponse({ status: 'ok' });
+    }
+  });
 
   try {
     const res = await fetch(chrome.runtime.getURL('technologies.json'));
@@ -127,28 +137,26 @@
     }
     window.postMessage({ type: 'SITECHECK_RUN_JS_SCAN', jsPropsToCheck }, '*');
 
-    // Send DOM results immediately; JS results follow when inject.js replies
     safeSend({ type: 'SITECHECK_RESULTS', detected });
   }
 
-  scanDOM();
-
-  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    if (message.type === 'RESCAN_DOM') {
-      scanDOM();
-      sendResponse({ status: 'ok' });
-    }
-  });
-
+  // Inject inject.js before scanning so it's ready to receive SITECHECK_RUN_JS_SCAN
   const injectMain = document.createElement('script');
   injectMain.src = chrome.runtime.getURL('inject.js');
   injectMain.onload = function() { this.remove(); };
   (document.head || document.documentElement).appendChild(injectMain);
 
+  const { loadMode } = await new Promise(resolve =>
+    chrome.storage.sync.get({ loadMode: 'on-click' }, resolve)
+  );
+
+  if (loadMode === 'always' || pendingScan) {
+    scanDOM();
+  }
+
   window.addEventListener('message', (event) => {
     if (event.source !== window) return;
     if (event.data?.type !== 'SITECHECK_JS_DATA') return;
-    // Guard: this DOM listener outlives the extension context on reload
     if (!chrome.runtime?.id) return;
     const jsDetected = event.data.detected || [];
     jsDetected.forEach(item => addDetected(item.name));

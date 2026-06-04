@@ -1,4 +1,31 @@
+function applyTheme(theme) {
+  document.body.classList.toggle('light-mode', theme === 'light');
+}
+
+function updateSettingUI(setting, value) {
+  document.querySelectorAll(`.setting-opt[data-setting="${setting}"]`).forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.value === value);
+  });
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
+  const settings = await new Promise(resolve =>
+    chrome.storage.sync.get({ theme: 'dark', loadMode: 'on-click' }, resolve)
+  );
+  applyTheme(settings.theme);
+  updateSettingUI('theme', settings.theme);
+  updateSettingUI('loadMode', settings.loadMode);
+
+  document.querySelectorAll('.setting-opt').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const key = btn.dataset.setting;
+      const val = btn.dataset.value;
+      await chrome.storage.sync.set({ [key]: val });
+      updateSettingUI(key, val);
+      if (key === 'theme') applyTheme(val);
+    });
+  });
+
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   if (!tab || !tab.url) return;
 
