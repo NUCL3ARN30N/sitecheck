@@ -1,4 +1,489 @@
-﻿{
+{
+  "11Sight": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "11Sight is an AI-powered, omnichannel platform enabling users to receive inbound video calls from any online channel, facilitating sales conversations and lead conversions.",
+    "icon": "11Sight.svg",
+    "js": {
+      "elevensight": "",
+      "elevensightApp": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.11sight\\.com/"
+    ],
+    "website": "https://www.11sight.com"
+  },
+  "1C-Bitrix": {
+    "cats": [
+      1,
+      6
+    ],
+    "cookies": {
+      "BITRIX_SM_GUEST_ID": "",
+      "BITRIX_SM_LAST_IP": "",
+      "BITRIX_SM_SALE_UID": ""
+    },
+    "description": "1C-Bitrix is a system of web project management, universal software for the creation, support and successful development of corporate websites and online stores.",
+    "headers": {
+      "Set-Cookie": "BITRIX_",
+      "X-Powered-CMS": "Bitrix Site Manager"
+    },
+    "icon": "1C-Bitrix.svg",
+    "implies": [
+      "PHP"
+    ],
+    "pricing": [
+      "onetime",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "bitrix(?:\\.info/|/js/main/core)"
+    ],
+    "website": "https://www.1c-bitrix.ru"
+  },
+  "24nettbutikk": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      " _gat_24nb": "\\;confidence:50",
+      "24nb": "\\;confidence:50"
+    },
+    "description": "24nettbutikk is an ecommerce platform from Norway.",
+    "icon": "24nettbutikk.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "requires": [
+      "Cart Functionality"
+    ],
+    "saas": true,
+    "website": "https://www.24nettbutikk.no"
+  },
+  "2B Advice": {
+    "cats": [
+      67
+    ],
+    "description": "2B Advice provides a plug-in to manage GDPR cookie consent.",
+    "icon": "2badvice.png",
+    "js": {
+      "BBCookieControler": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "2badvice-cdn\\.azureedge\\.net"
+    ],
+    "website": "https://www.2b-advice.com/en/data-privacy-software/cookie-consent-plugin/"
+  },
+  "2ClickShop": {
+    "cats": [
+      6
+    ],
+    "description": "2ClickShop is an ecommerce platform integrated with ERP systems, catering to both B2B and B2C transactions.",
+    "icon": "2ClickShop.svg",
+    "meta": {
+      "author": "^Trol Intermedia / 2ClickShop$"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://2click.pl"
+  },
+  "30namaPlayer": {
+    "cats": [
+      14
+    ],
+    "description": "30namaPlayer is a modified version of Video.js to work with videos on HTML using javascript.",
+    "dom": [
+      "section[class*='player30nama']"
+    ],
+    "icon": "30namaPlayer.png",
+    "website": "https://30nama.com/"
+  },
+  "321 CMS": {
+    "cats": [
+      1
+    ],
+    "description": "321 CMS is a content management system that enables users to create and manage websites without requiring coding knowledge.",
+    "icon": "321CMS.svg",
+    "meta": {
+      "author": "^321 CREATIVE CREW"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.321web.cz"
+  },
+  "33Across": {
+    "cats": [
+      36
+    ],
+    "description": "33Across is a technology company focused on solving the challenge of consumer attention for automated advertising.",
+    "dom": [
+      "iframe[src*='.33across.com'], link[href*='.33across.com'], link[href*='.tynt.com']"
+    ],
+    "icon": "33Across.svg",
+    "js": {
+      "Tynt": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "\\.33across\\.com/",
+      "\\.tynt\\.com/"
+    ],
+    "website": "https://www.33across.com",
+    "xhr": [
+      "\\.33across\\.com"
+    ]
+  },
+  "34SP.com": {
+    "cats": [
+      88
+    ],
+    "description": "34SP.com specialises in website hosting, discount domain names, low cost VPS servers and dedicated servers.",
+    "dns": {
+      "SOA": [
+        "ns(?:\\d+)?\\.34sp\\.com"
+      ]
+    },
+    "icon": "34SP.com.svg",
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "website": "https://www.34sp.com"
+  },
+  "4-Tell": {
+    "cats": [
+      76
+    ],
+    "cookies": {
+      "4Tell": "",
+      "4TellCart": "",
+      "4TellSession": ""
+    },
+    "description": "4-Tell is an ecommerce software company for retailers with AI-powered personalisation and recommendations products.",
+    "icon": "4-Tell.svg",
+    "js": {
+      "_4TellBoost": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "4tellcdn\\.azureedge\\.net"
+    ],
+    "website": "https://4-tell.com"
+  },
+  "42Chat": {
+    "cats": [
+      52
+    ],
+    "description": "42Chat is a provider of conversational AI solutions and text-based chatbots designed to connect clients with their communities.",
+    "icon": "42Chat.svg",
+    "saas": true,
+    "scriptSrc": [
+      "api\\.42chat\\.com"
+    ],
+    "website": "https://www.42chat.com"
+  },
+  "42stores": {
+    "cats": [
+      6
+    ],
+    "description": "42stores is a French SaaS ecommerce solution that was established in 2008. It offers a range of features such as monitoring, customer support, and regular updates. The platform is known for its flexibility and modularity, making it possible to integrate with various ERP systems.",
+    "headers": {
+      "Powered-By": "^42stores$"
+    },
+    "icon": "42stores.svg",
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.42stores.com"
+  },
+  "4Partners": {
+    "cats": [
+      99
+    ],
+    "description": "4Partners is an international dropshipping service that allows you to launch a ready-made online store.",
+    "icon": "4Partners.svg",
+    "pricing": [
+      "poa"
+    ],
+    "website": "https://4partners.io/en/"
+  },
+  "4Partners CMS": {
+    "cats": [
+      6
+    ],
+    "description": "4Partners CMS is a cloud-based solution designed for ecommerce shops.",
+    "icon": "4Partners.svg",
+    "implies": [
+      "PHP",
+      "4Partners",
+      "Nginx"
+    ],
+    "meta": {
+      "author": "^4CMS$"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "website": "https://4partners.io/en/4p-cms"
+  },
+  "51.LA": {
+    "cats": [
+      10
+    ],
+    "description": "51.LA is a Chinese based website visitor counter.",
+    "icon": "51.LA.png",
+    "js": {
+      "LA.config.ck": ""
+    },
+    "pricing": [
+      "freemium",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://www.51.la"
+  },
+  "52Degrees": {
+    "cats": [
+      10
+    ],
+    "description": "52Degrees is a data platform formerly known as Handset Detection, providing real-time device and data insights for digital businesses.",
+    "icon": "52Degrees.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "api\\.handsetdetection\\.com"
+    ],
+    "scripts": [
+      "'api\\.handsetdetection\\.com"
+    ],
+    "website": "https://51degrees.com"
+  },
+  "5centsCDN": {
+    "cats": [
+      31
+    ],
+    "description": "5centsCDN is a content delivery networks service provider.",
+    "dom": [
+      "link[href*='.5centscdn.com/']"
+    ],
+    "headers": {
+      "x-cdn": "^5centsCDN$"
+    },
+    "icon": "5centsCDN.svg",
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "scriptSrc": [
+      "\\.5centscdn\\.com/"
+    ],
+    "website": "https://www.5centscdn.net"
+  },
+  "6sense": {
+    "cats": [
+      32,
+      76
+    ],
+    "description": "6sense is a B2B predictive intelligence platform for marketing and sales.",
+    "headers": {
+      "Content-Security-Policy": "\\.6sc\\.co/"
+    },
+    "icon": "6sense.svg",
+    "pricing": [
+      "poa",
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.6sc\\.co/"
+    ],
+    "website": "https://6sense.com"
+  },
+  "6Valley eCommerce CMS": {
+    "cats": [
+      1,
+      6
+    ],
+    "cookies": {
+      "6valley_session": ""
+    },
+    "description": "6Valley eCommerce CMS is a multi-vendor platform designed to facilitate business launches by providing tools for managing vendors, products, and transactions within an ecommerce ecosystem.",
+    "icon": "6ValleyEcommerceCMS.svg",
+    "pricing": [
+      "onetime"
+    ],
+    "scripts": [
+      "6valley_cookie_consent"
+    ],
+    "website": "https://6valley.app"
+  },
+  "7moor": {
+    "cats": [
+      32,
+      53
+    ],
+    "description": "7moor is an integrated customer service marketing solution that combines communication, customer support, and marketing tools.",
+    "icon": "7moor.svg",
+    "js": {
+      "moor7Source": ""
+    },
+    "saas": true,
+    "website": "https://www.7moor.com"
+  },
+  "7Shifts": {
+    "cats": [
+      101
+    ],
+    "description": "7Shifts is an all-in-one team management platform designed to streamline restaurant operations, providing tools for scheduling, communication, and task management to simplify day-to-day activities for both managers and staff.",
+    "dom": [
+      "a[href*='7shifts.com/'] > img[src*='.7shifts.com/']"
+    ],
+    "icon": "7Shifts.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.7shifts.com"
+  },
+  "8base": {
+    "cats": [
+      3,
+      62
+    ],
+    "description": "8base is a low-code development platform for building and running enterprise-grade digital products including SaaS solutions, marketplaces and other go-to-market applications.",
+    "icon": "8base.svg",
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://8base.com",
+    "xhr": [
+      "api\\.8base\\.com"
+    ]
+  },
+  "8x8": {
+    "cats": [
+      52
+    ],
+    "description": "8x8 is a communication tool offering chat functionality for streamlined business communication.",
+    "icon": "8x8.svg",
+    "js": {
+      "Chat8x8": "",
+      "__8x8Chat": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.8x8.com"
+  },
+  "91App": {
+    "cats": [
+      6
+    ],
+    "description": "91App is a Taiwan-based platform that provides solutions for retail stores.",
+    "icon": "91App.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.91app\\.com/"
+    ],
+    "website": "https://91app.com"
+  },
+  "99minds": {
+    "cats": [
+      84
+    ],
+    "description": "99minds is an online platform for managing and scaling gift cards, store credit, digital wallets, and loyalty programs.",
+    "icon": "99minds.svg",
+    "js": {
+      "_99mindsDataLayer": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.99minds\\.io"
+    ],
+    "website": "https://www.99minds.io"
+  },
+  "<model-viewer>": {
+    "cats": [
+      105
+    ],
+    "description": "<model-viewer> is an open-source web component developed by Google and maintained through GitHub. <model-viewer> aims at putting 3D content on the web easily with a few lines of HTML code. This was first introduced with Chrome 72 in July 2019 and enables users to view 3D in the browser and mobile devices.",
+    "dom": [
+      "model-viewer"
+    ],
+    "icon": "model-viewer.svg",
+    "oss": true,
+    "scriptSrc": [
+      "/model-viewer/dist/model-viewer\\.min\\.js"
+    ],
+    "website": "https://modelviewer.dev"
+  },
+  "@sulu/web": {
+    "cats": [
+      59
+    ],
+    "icon": "Sulu.svg",
+    "js": {
+      "web.startComponents": ""
+    },
+    "website": "https://github.com/sulu/web-js"
+  },
+  "_hyperscript": {
+    "cats": [
+      59
+    ],
+    "description": "_hyperscript is a scripting language for adding interactivity to the front-end.",
+    "icon": "_hyperscript.png",
+    "js": {
+      "_hyperscript": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "//unpkg\\.com/hyperscript\\.org@([\\d\\.]+)\\;version:\\1"
+    ],
+    "website": "https://hyperscript.org"
+  },
   "a-blog cms": {
     "cats": [
       1
@@ -5039,7 +5524,7 @@
     ],
     "description": "AMP, originally created by Google, is an open-source HTML framework developed by the AMP open-source Project. AMP is designed to help webpages load faster.",
     "html": [
-      "<html[^>]* (?:amp|âš¡)[^-]",
+      "<html[^>]* (?:amp|⚡)[^-]",
       "<link rel=\"amphtml\""
     ],
     "icon": "Accelerated-Mobile-Pages.svg",
@@ -5622,7 +6107,7 @@
     "cats": [
       25
     ],
-    "description": "Anime.js (/ËˆÃ¦n.É™.meÉª/) is a lightweight JavaScript animation library with a simple, yet powerful API.It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
+    "description": "Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API.It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
     "headers": {
       "Access-Control-Allow-Origin": "animejs\\.com"
     },
@@ -6169,7 +6654,7 @@
     "description": "Apereo CAS is an open and well-documented authentication protocol. The primary implementation of the protocol is an open-source Java server component by the same name hosted here, with support for a plethora of additional authentication protocols and features.",
     "dom": {
       "head > title": {
-        "text": "CAS â€“ (?:Central Authentication Service|Service Central d'Authentification)"
+        "text": "CAS – (?:Central Authentication Service|Service Central d'Authentification)"
       }
     },
     "icon": "Apereo.svg",
@@ -7183,7 +7668,7 @@
       "arcid": "",
       "aspan_s": ""
     },
-    "description": "ArcSpan is an audience monetization DMP platform enabling direct sold and programmatic deal results for the worldâ€™s finest publishers and retail media networks.",
+    "description": "ArcSpan is an audience monetization DMP platform enabling direct sold and programmatic deal results for the world’s finest publishers and retail media networks.",
     "icon": "ArcSpan.svg",
     "js": {
       "aspan": "",
@@ -8272,7 +8757,7 @@
     "cats": [
       29
     ],
-    "description": "Athena Search is a customizable autocomplete, feature-rich dashboard, smart predictions, real-time reports search engine developed from scratch by Syncit Groupâ€™s.",
+    "description": "Athena Search is a customizable autocomplete, feature-rich dashboard, smart predictions, real-time reports search engine developed from scratch by Syncit Group’s.",
     "dom": [
       "link[href*='athena/autocomplete/css/autocomplete.css']"
     ],
@@ -9857,8 +10342,7 @@
       "freemium"
     ],
     "website": "https://azuriom.com"
-  }
-,
+  },
   "B12": {
     "cats": [
       51
@@ -10133,11 +10617,11 @@
     "saas": true,
     "website": "https://bahooosh.com"
   },
-  "Baidu Analytics (ç™¾åº¦ç»Ÿè®¡)": {
+  "Baidu Analytics (百度统计)": {
     "cats": [
       10
     ],
-    "description": "Baidu Analytics (ç™¾åº¦ç»Ÿè®¡) is a free tool for tracking and reporting traffic data of users visiting your site.",
+    "description": "Baidu Analytics (百度统计) is a free tool for tracking and reporting traffic data of users visiting your site.",
     "icon": "Baidu Tongji.png",
     "scriptSrc": [
       "hm\\.baidu\\.com/hm?\\.js"
@@ -10504,7 +10988,7 @@
     "cats": [
       36
     ],
-    "description": "Basis Technologies, formerly â€˜Centro,â€™ provides cloud-based workflow automation and business intelligence software for marketing.",
+    "description": "Basis Technologies, formerly ‘Centro,’ provides cloud-based workflow automation and business intelligence software for marketing.",
     "icon": "Basis.svg",
     "scriptSrc": [
       "cdn01\\.basis\\.net"
@@ -12858,7 +13342,7 @@
     "cats": [
       88
     ],
-    "description": "Bluehost is a large web host known for its WordPress expertise, variety of â€œone-stop-shopâ€ services, and bargain prices.",
+    "description": "Bluehost is a large web host known for its WordPress expertise, variety of “one-stop-shop” services, and bargain prices.",
     "dns": {
       "NS": [
         "\\.bluehost\\.com"
@@ -16329,8 +16813,7 @@
       "webcare\\.byside\\.com/"
     ],
     "website": "https://byside.com"
-  }
-,
+  },
   "C": {
     "cats": [
       27
@@ -16547,7 +17030,7 @@
       "cakephp": ""
     },
     "cpe": "cpe:2.3:a:cakephp:cakephp:*:*:*:*:*:*:*:*",
-    "description": "CakePHP is an open-source web framework. It follows the modelâ€“viewâ€“controller (MVC) approach and is written in PHP.",
+    "description": "CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP.",
     "icon": "CakePHP.svg",
     "implies": [
       "PHP"
@@ -17276,7 +17759,7 @@
     "cats": [
       46
     ],
-    "description": "Cardina is a screen-sharing and cobrowsing tool that enables agents to see, draw on, and guide a customerâ€™s screen during phone or live chat interactions without requiring customer actions.",
+    "description": "Cardina is a screen-sharing and cobrowsing tool that enables agents to see, draw on, and guide a customer’s screen during phone or live chat interactions without requiring customer actions.",
     "icon": "Cardina.svg",
     "js": {
       "Cohere.addCallStatusListener": ""
@@ -18461,11 +18944,11 @@
     "saas": true,
     "website": "https://cevoid.com"
   },
-  "CfixÃ©": {
+  "Cfixé": {
     "cats": [
       72
     ],
-    "description": "CfixÃ© is a scheduling platform that enables online booking for everyday services and allows professionals to embed a scheduling widget directly on their website.",
+    "description": "Cfixé is a scheduling platform that enables online booking for everyday services and allows professionals to embed a scheduling widget directly on their website.",
     "icon": "Cfixe.svg",
     "pricing": [
       "low",
@@ -21666,7 +22149,7 @@
     "cats": [
       92
     ],
-    "description": "Cloudflare Zaraz gives you complete control over third-party tools and services for your website, and allows you to offload them to Cloudflareâ€™s edge, improving the speed and security of your website.",
+    "description": "Cloudflare Zaraz gives you complete control over third-party tools and services for your website, and allows you to offload them to Cloudflare’s edge, improving the speed and security of your website.",
     "icon": "CloudFlare.svg",
     "js": {
       "zaraz": "",
@@ -22057,7 +22540,7 @@
     "cats": [
       21
     ],
-    "description": "Coachy is a platform for creating and selling online courses with integrated payment systems and GDPR-compliant data storageâ€‹.",
+    "description": "Coachy is a platform for creating and selling online courses with integrated payment systems and GDPR-compliant data storage​.",
     "dom": [
       "iframe[src*='embed.coachy.net/']"
     ],
@@ -22391,7 +22874,7 @@
       16,
       56
     ],
-    "description": "Coinhive Captcha provides captcha service that is simple to integrate, where your usersâ€™ devices need to solve a number of hashes, adjustable by you, in order to login or post a comment to your site.",
+    "description": "Coinhive Captcha provides captcha service that is simple to integrate, where your users’ devices need to solve a number of hashes, adjustable by you, in order to login or post a comment to your site.",
     "dom": [
       "div.coinhive-captcha"
     ],
@@ -22460,17 +22943,17 @@
     ],
     "website": "https://colibriwp.com"
   },
-  "Colis PrivÃ©": {
+  "Colis Privé": {
     "cats": [
       99
     ],
-    "description": "Colis PrivÃ© is a private parcel delivery service provider specialised in last-mile delivery.",
+    "description": "Colis Privé is a private parcel delivery service provider specialised in last-mile delivery.",
     "icon": "Colis Prive.svg",
     "requiresCategory": [
       6
     ],
     "text": [
-      "\\bColis Priv[eÃ©]\\b"
+      "\\bColis Priv[eé]\\b"
     ],
     "website": "https://www.colisprive.fr"
   },
@@ -26975,8 +27458,7 @@
       "\\.czater\\.pl"
     ],
     "website": "https://www.czater.pl"
-  }
-,
+  },
   "D.Engage": {
     "cats": [
       32
@@ -29180,11 +29662,11 @@
     "saas": true,
     "website": "https://www.digizuite.com"
   },
-  "digiÂ·access": {
+  "digi·access": {
     "cats": [
       68
     ],
-    "description": "digiÂ·access is a solution designed to improve web accessibility by helping organizations align digital content with WCAG 2.1 standards.",
+    "description": "digi·access is a solution designed to improve web accessibility by helping organizations align digital content with WCAG 2.1 standards.",
     "icon": "digiaccess.svg",
     "pricing": [
       "low",
@@ -31446,7 +31928,7 @@
     "cookies": {
       "Dynamicweb": ""
     },
-    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketingâ€‹, product information management (PIM) and integration.",
+    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketing​, product information management (PIM) and integration.",
     "dom": [
       "input[value='dynamicweb.com']"
     ],
@@ -31520,8 +32002,7 @@
     "xhr": [
       "cdn\\.dyte\\.in/"
     ]
-  }
-,
+  },
   "E-Com Plus": {
     "cats": [
       108
@@ -32164,7 +32645,7 @@
       71,
       94
     ],
-    "description": "eBay Partner Network is an online referral program where eBay pays commissions to referrers on sales generated by customers theyâ€™ve referred.",
+    "description": "eBay Partner Network is an online referral program where eBay pays commissions to referrers on sales generated by customers they’ve referred.",
     "icon": "eBay.svg",
     "scriptSrc": [
       "epnt\\.ebay\\.com/"
@@ -32247,7 +32728,7 @@
     "cats": [
       32
     ],
-    "description": "Ecal is a marketing software platform that enables the delivery of calendar-based tickets and events directly into usersâ€™ personal calendars.",
+    "description": "Ecal is a marketing software platform that enables the delivery of calendar-based tickets and events directly into users’ personal calendars.",
     "icon": "Ecal.svg",
     "pricing": [
       "freemium",
@@ -32729,7 +33210,7 @@
     "cats": [
       1
     ],
-    "description": "Edlio is a platform that provides integrated Kâ€“12 teaching and communication solutions to support classroom management, student engagement, and schoolâ€“home interaction.",
+    "description": "Edlio is a platform that provides integrated K–12 teaching and communication solutions to support classroom management, student engagement, and school–home interaction.",
     "icon": "Edlio.svg",
     "js": {
       "edlio.isEdgeToEdge": "",
@@ -35080,7 +35561,7 @@
     ],
     "icon": "Essent.png",
     "meta": {
-      "GENERATOR": "^EssentÂ® SiteBuilder Pro$"
+      "GENERATOR": "^Essent® SiteBuilder Pro$"
     },
     "pricing": [
       "low",
@@ -36391,7 +36872,7 @@
     "cats": [
       53
     ],
-    "description": "EZLynx is a cloud-based software offering real-time comparative insurance rating, integrating with over 330 carriers for automated quoting and policy managementâ€‹.",
+    "description": "EZLynx is a cloud-based software offering real-time comparative insurance rating, integrating with over 330 carriers for automated quoting and policy management​.",
     "icon": "EZLynx.svg",
     "meta": {
       "author": "^EZLynx$"
@@ -36480,8 +36961,7 @@
       "\\.ezyvet\\.com/"
     ],
     "website": "https://www.ezyvet.com"
-  }
-,
+  },
   "F5 BigIP": {
     "cats": [
       64
@@ -36846,11 +37326,11 @@
     ],
     "website": "https://faral.tech"
   },
-  "Farazi BiliÅŸim": {
+  "Farazi Bilişim": {
     "cats": [
       54
     ],
-    "description": "Farazi BiliÅŸim is a platform that enhances online visibility through search engine optimization strategies aimed at improving website ranking and performance across major search platforms.",
+    "description": "Farazi Bilişim is a platform that enhances online visibility through search engine optimization strategies aimed at improving website ranking and performance across major search platforms.",
     "headers": {
       "X-Powered-By": "farazibilisim\\.com\\.tr"
     },
@@ -37711,7 +38191,7 @@
     "cats": [
       41
     ],
-    "description": "Feroot is a platform for creating PCI DSS 4.0.1â€“compliant payment pages that ensure safe handling of transaction and customer data.",
+    "description": "Feroot is a platform for creating PCI DSS 4.0.1–compliant payment pages that ensure safe handling of transaction and customer data.",
     "icon": "Feroot.svg",
     "saas": true,
     "scriptSrc": [
@@ -40040,7 +40520,7 @@
       "window.config.assetVersionEncoded": "([\\d.]+).+gitea-[\\d.]+\\;version:\\1"
     },
     "meta": {
-      "author": "Forgejo â€“ Beyond coding\\. We forge\\."
+      "author": "Forgejo – Beyond coding\\. We forge\\."
     },
     "oss": true,
     "saas": true,
@@ -40749,7 +41229,7 @@
     "cats": [
       6
     ],
-    "description": "Foxyâ€™s hosted cart & payment page allow you to sell anything, using your existing website or platform.",
+    "description": "Foxy’s hosted cart & payment page allow you to sell anything, using your existing website or platform.",
     "icon": "foxyio.svg",
     "pricing": [
       "payg",
@@ -41337,7 +41817,7 @@
     "cats": [
       16
     ],
-    "description": "Friendly Captcha is a proof-of-work based solution in which the userâ€™s device does all the work.",
+    "description": "Friendly Captcha is a proof-of-work based solution in which the user’s device does all the work.",
     "dom": [
       "div.frc-captcha"
     ],
@@ -42257,8 +42737,7 @@
       "\\.fynd\\.com/"
     ],
     "website": "https://platform.fynd.com"
-  }
-,
+  },
   "Gallabox": {
     "cats": [
       53
@@ -43664,7 +44143,7 @@
     "cpe": "cpe:2.3:a:gitea:gitea:*:*:*:*:*:*:*:*",
     "description": "Gitea is an open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. It supports self-hosting but also provides a free public first-party instance hosted on DiDi's cloud.",
     "html": [
-      "<div class=\"ui left\">\\n\\s+Â© Gitea Version: ([\\d.]+)\\;version:\\1"
+      "<div class=\"ui left\">\\n\\s+© Gitea Version: ([\\d.]+)\\;version:\\1"
     ],
     "icon": "gitea.svg",
     "implies": [
@@ -44872,7 +45351,7 @@
     "cpe": "cpe:2.3:a:gogs:gogs:*:*:*:*:*:*:*:*",
     "description": "Gogs is a self-hosted Git service written in Go.",
     "html": [
-      "<div class=\"ui left\">\\n\\s+Â© \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
+      "<div class=\"ui left\">\\n\\s+© \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
       "<button class=\"ui basic clone button\" id=\"repo-clone-ssh\" data-link=\"gogs@"
     ],
     "icon": "gogs.svg",
@@ -45400,7 +45879,7 @@
     "cats": [
       35
     ],
-    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360Â° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
+    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
     "dom": [
       "iframe[src*='google.com/maps']"
     ],
@@ -47153,8 +47632,7 @@
       "generator": "GX WebManager(?: ([\\d.]+))?\\;version:\\1"
     },
     "website": "https://www.gxsoftware.com/en/products/web-content-management.htm"
-  }
-,
+  },
   "H2O": {
     "cats": [
       22
@@ -50740,8 +51218,7 @@
       "onetime"
     ],
     "website": "https://hyva.io"
-  }
-,
+  },
   "i-mobile": {
     "cats": [
       36
@@ -53927,7 +54404,7 @@
     "cats": [
       1
     ],
-    "description": "Itâ€™seeze is a website design platform with a custom CMS for seamless site updates and management.",
+    "description": "It’seeze is a website design platform with a custom CMS for seamless site updates and management.",
     "dom": [
       "footer > div[id*='itseezeFooter']"
     ],
@@ -54177,8 +54654,7 @@
       "cdn\\.izooto\\.\\w+"
     ],
     "website": "https://www.izooto.com"
-  }
-,
+  },
   "J2Store": {
     "cats": [
       6
@@ -54693,7 +55169,7 @@
     "cats": [
       87
     ],
-    "description": "Jetpack Boost â€“ Website Speed, Performance and Critical CSS.",
+    "description": "Jetpack Boost – Website Speed, Performance and Critical CSS.",
     "dom": [
       "style[id='jetpack-boost-critical-css']"
     ],
@@ -56040,13 +56516,12 @@
     "xhr": [
       "\\.jwpsrv\\.com"
     ]
-  }
-,
+  },
   "k-eCommerce": {
     "cats": [
       6
     ],
-    "description": "k-eCommerce is mdf commerceâ€™s platform for SMBs, providing all-in-one ecommerce and digital payment solutions integrated to Microsoft Dynamics and SAP Business One. ",
+    "description": "k-eCommerce is mdf commerce’s platform for SMBs, providing all-in-one ecommerce and digital payment solutions integrated to Microsoft Dynamics and SAP Business One. ",
     "dom": [
       "a[href*='.k-ecommerce.com/'][target='_blank']"
     ],
@@ -58576,7 +59051,7 @@
       27
     ],
     "cpe": "cpe:2.3:a:jetbrains:kotlin:*:*:*:*:*:*:*:*",
-    "description": "Kotlin is a general purpose, free, open-source, statically typed â€œpragmaticâ€ programming language initially designed for the JVM (Java Virtual Machine) and Android that combines object-oriented and functional programming features.",
+    "description": "Kotlin is a general purpose, free, open-source, statically typed “pragmatic” programming language initially designed for the JVM (Java Virtual Machine) and Android that combines object-oriented and functional programming features.",
     "icon": "Kotlin.svg",
     "oss": true,
     "website": "https://kotlinlang.org"
@@ -58995,8 +59470,7 @@
       "\\.kyvio\\.com"
     ],
     "website": "https://kyvio.com"
-  }
-,
+  },
   "Labrador CMS": {
     "cats": [
       1
@@ -60492,7 +60966,7 @@
     "cats": [
       68
     ],
-    "description": "Level Access, formerly eSSENTIAL Accessibility, is a leading digital accessibility solutions provider offering tools and services to ensure compliance with standards such as ADA, Section 508, and WCAGâ€‹ ",
+    "description": "Level Access, formerly eSSENTIAL Accessibility, is a leading digital accessibility solutions provider offering tools and services to ensure compliance with standards such as ADA, Section 508, and WCAG​ ",
     "dom": [
       " a[href*='.essentialaccessibility.com'] > img, a[href*='.levelaccess.com'] > img"
     ],
@@ -63204,7 +63678,7 @@
     ],
     "website": "https://www.luckyorange.com"
   },
-  "Luigiâ€™s Box": {
+  "Luigi’s Box": {
     "cats": [
       10,
       29
@@ -63440,8 +63914,7 @@
       "\\.lytics\\.io/"
     ],
     "website": "https://www.lytics.com"
-  }
-,
+  },
   "MAAK": {
     "cats": [
       1
@@ -66312,7 +66785,7 @@
     "cats": [
       1
     ],
-    "description": "Megagroup CMS.S3 management system is provided not as a â€œboxed productâ€, but as a separate service, that is, it works using SaaS technology. This means that you manage your site directly through your browser using an intuitive interface.",
+    "description": "Megagroup CMS.S3 management system is provided not as a “boxed product”, but as a separate service, that is, it works using SaaS technology. This means that you manage your site directly through your browser using an intuitive interface.",
     "icon": "Megagroup.svg",
     "js": {
       "megacounter_key": ""
@@ -69345,7 +69818,7 @@
     "cats": [
       87
     ],
-    "description": "Moneris is Canadaâ€™s leading processor of Debit and credit card payments. This WooCommerce extension automatically adds moneris payment gateway to your woocommerce website and allows you to keep the customer on your site for the checkout process.",
+    "description": "Moneris is Canada’s leading processor of Debit and credit card payments. This WooCommerce extension automatically adds moneris payment gateway to your woocommerce website and allows you to keep the customer on your site for the checkout process.",
     "icon": "Moneris.svg",
     "implies": [
       "Moneris",
@@ -70808,7 +71281,7 @@
     "cats": [
       6
     ],
-    "description": "MyPlay is a network of Sony Musicâ€“owned online stores that enable musicians to sell and distribute their music and related merchandise.",
+    "description": "MyPlay is a network of Sony Music–owned online stores that enable musicians to sell and distribute their music and related merchandise.",
     "icon": "MyPlay.svg",
     "saas": true,
     "scriptSrc": [
@@ -71030,8 +71503,7 @@
     ],
     "saas": true,
     "website": "https://www.ionos.com"
-  }
-,
+  },
   "N1ED": {
     "cats": [
       24
@@ -72108,7 +72580,7 @@
     "cats": [
       87
     ],
-    "description": "Newspack is an open-source publishing platform built on WordPress for small to medium sized news organizations. It is an â€œopinionatedâ€ platform that stakes out clear, best-practice positions on technology, design, and business practice for news publishers.",
+    "description": "Newspack is an open-source publishing platform built on WordPress for small to medium sized news organizations. It is an “opinionated” platform that stakes out clear, best-practice positions on technology, design, and business practice for news publishers.",
     "dom": [
       "a.imprint[href*='newspack.pub']"
     ],
@@ -72368,7 +72840,7 @@
     "cats": [
       36
     ],
-    "description": "Nextdoor Ads is an easy-to-use expansion of Nextdoorâ€™s proprietary self-serve campaign management platform, designed to help small and medium-sized businesses (SMBs) advertise on Nextdoor.",
+    "description": "Nextdoor Ads is an easy-to-use expansion of Nextdoor’s proprietary self-serve campaign management platform, designed to help small and medium-sized businesses (SMBs) advertise on Nextdoor.",
     "icon": "Nextdoor Ads.png",
     "scriptSrc": [
       "ads\\.nextdoor\\.com/"
@@ -73080,7 +73552,7 @@
       "Nop.customer": ""
     },
     "cpe": "cpe:2.3:a:nopcommerce:nopcommerce:*:*:*:*:*:*:*:*",
-    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASPâ€‹.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
+    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP​.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
     "html": [
       "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)"
     ],
@@ -73813,8 +74285,7 @@
     ],
     "saas": true,
     "website": "https://nyehandel.se"
-  }
-,
+  },
   "Oat++": {
     "cats": [
       18
@@ -75783,7 +76254,7 @@
     "cats": [
       1
     ],
-    "description": "OpenText Web is a web content management platform that supports hybrid headless environments, allowing developers to use preferred tools and enabling marketers to author, test, and publish content seamlessly, with a focus on performance, scalability, and complianceâ€‹.",
+    "description": "OpenText Web is a web content management platform that supports hybrid headless environments, allowing developers to use preferred tools and enabling marketers to author, test, and publish content seamlessly, with a focus on performance, scalability, and compliance​.",
     "html": [
       "<!--[^>]+published by Open Text Web Solutions"
     ],
@@ -76742,7 +77213,7 @@
     "cats": [
       6
     ],
-    "description": "OrderPort is an eÑommerce platform tailored for wineries, offering online sales, wine clubs, and point-of-sale integration.",
+    "description": "OrderPort is an eсommerce platform tailored for wineries, offering online sales, wine clubs, and point-of-sale integration.",
     "dom": [
       "span#updViewCart a[href*='orderport.net']"
     ],
@@ -76954,7 +77425,7 @@
     "cats": [
       99
     ],
-    "description": "Ã–sterreichische Post is an Austrian logistics and postal services provider.",
+    "description": "Österreichische Post is an Austrian logistics and postal services provider.",
     "icon": "Post AG.svg",
     "requiresCategory": [
       6
@@ -76962,7 +77433,7 @@
     "text": [
       "\\bpost\\.at\\b",
       "\\bPost AG\\b",
-      "\\b[Ã–O]sterreichische Post\\b"
+      "\\b[ÖO]sterreichische Post\\b"
     ],
     "website": "https://www.post.at"
   },
@@ -77566,8 +78037,7 @@
     },
     "saas": true,
     "website": "https://www.oxyshop.cz"
-  }
-,
+  },
   "P3chat": {
     "cats": [
       52
@@ -80642,7 +81112,7 @@
       1
     ],
     "cpe": "cpe:2.3:a:phpnuke:php-nuke:*:*:*:*:*:*:*:*",
-    "description": "PHP-Nuke is a free, web-based content management system for creating community portals and managing news, originally developed by Francisco Burzi using PHP and MySQLâ€‹.",
+    "description": "PHP-Nuke is a free, web-based content management system for creating community portals and managing news, originally developed by Francisco Burzi using PHP and MySQL​.",
     "html": [
       "<[^>]+Powered by PHP-Nuke"
     ],
@@ -84309,7 +84779,7 @@
     "cats": [
       100
     ],
-    "description": "PreProduct is a tool that enables businesses to boost sales and manage demand through Shopifyâ€™s pre-order system.",
+    "description": "PreProduct is a tool that enables businesses to boost sales and manage demand through Shopify’s pre-order system.",
     "icon": "PreProduct.svg",
     "js": {
       "PPshowPreProduct": ""
@@ -85723,7 +86193,7 @@
     "cats": [
       30
     ],
-    "description": "Proton Mail is the worldâ€™s largest secure email service with over 70 million users. Available on Web, iOS, Android, and desktop. Protected by Swiss privacy law.",
+    "description": "Proton Mail is the world’s largest secure email service with over 70 million users. Available on Web, iOS, Android, and desktop. Protected by Swiss privacy law.",
     "dns": {
       "MX": [
         "\\.protonmail\\.ch"
@@ -87029,8 +87499,7 @@
       "cdn\\.pyze\\.com"
     ],
     "website": "https://www.pyze.com"
-  }
-,
+  },
   "Q1Media": {
     "cats": [
       36
@@ -88144,8 +88613,7 @@
     "icon": "Qwik.svg",
     "oss": true,
     "website": "https://qwik.builder.io"
-  }
-,
+  },
   "Raaft": {
     "cats": [
       97
@@ -88765,7 +89233,7 @@
     "cats": [
       36
     ],
-    "description": "Raptive is a company formed from the merger of CafeMedia, AdThrive, and CafeMedia Ad Management, focusing on supporting digital creators and publishersâ€‹.",
+    "description": "Raptive is a company formed from the merger of CafeMedia, AdThrive, and CafeMedia Ad Management, focusing on supporting digital creators and publishers​.",
     "icon": "Raptive.svg",
     "js": {
       "adthrive": "",
@@ -90150,7 +90618,7 @@
       34
     ],
     "cpe": "cpe:2.3:a:redislabs:redis:*:*:*:*:*:*:*:*",
-    "description": "Redis is an in-memory data structure project implementing a distributed, in-memory keyâ€“value database with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes.",
+    "description": "Redis is an in-memory data structure project implementing a distributed, in-memory key–value database with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes.",
     "icon": "Redis.svg",
     "website": "https://redis.io"
   },
@@ -93243,9 +93711,9 @@
   },
   "Rofofk": {
     "cats": [
-		1,
-		6
-	],
+      1,
+      6
+    ],
     "description": "Rofofk is an Arabic multi-tenant e-commerce SaaS platform.",
     "headers": {
       "X-Powered-By": "Rofofk"
@@ -93559,7 +94027,7 @@
     "cats": [
       19
     ],
-    "description": "Rspack is a JavaScript bundler written in Rust, offering faster build times and compatibility with the Webpack ecosystemâ€‹.",
+    "description": "Rspack is a JavaScript bundler written in Rust, offering faster build times and compatibility with the Webpack ecosystem​.",
     "icon": "Rspack.svg",
     "implies": [
       "Rust"
@@ -93571,7 +94039,7 @@
     "cats": [
       57
     ],
-    "description": "Rspress is a static site generator built on Rspack, offering features like MDX support, full-text search, internationalization, and customizable themesâ€‹.",
+    "description": "Rspress is a static site generator built on Rspack, offering features like MDX support, full-text search, internationalization, and customizable themes​.",
     "icon": "Rspress.svg",
     "implies": [
       "Rspack"
@@ -93586,7 +94054,7 @@
     "cats": [
       19
     ],
-    "description": "RSS is a family of web feed formats used to publish frequently updated worksâ€”such as blog entries, news headlines, audio, and videoâ€”in a standardized format.",
+    "description": "RSS is a family of web feed formats used to publish frequently updated works—such as blog entries, news headlines, audio, and video—in a standardized format.",
     "dom": {
       "link[type*='application']": {
         "attributes": {
@@ -94002,8 +94470,7 @@
     },
     "saas": true,
     "website": "https://ryzeo.com"
-  }
-,
+  },
   "S&P Global Mobility": {
     "cats": [
       10
@@ -95265,11 +95732,11 @@
     ],
     "website": "https://satu.kz"
   },
-  "SatÅ«s": {
+  "Satūs": {
     "cats": [
       12
     ],
-    "description": "SatÅ«s is a React-based starter built with Next.js, Tailwind, and advanced WebGL features, designed as a high-performance foundation for developing new web projects.",
+    "description": "Satūs is a React-based starter built with Next.js, Tailwind, and advanced WebGL features, designed as a high-performance foundation for developing new web projects.",
     "icon": "Satus.svg",
     "js": {
       "satusVersion": "^(.+)$\\;version:\\1"
@@ -96187,7 +96654,7 @@
     "cats": [
       67
     ],
-    "description": "Seers is a privacy and consent management platform that helps businesses comply with data protection regulations like GDPR, CCPA, and LGPD by providing tools for cookie consent, data anonymization, and GDPR trainingâ€‹.",
+    "description": "Seers is a privacy and consent management platform that helps businesses comply with data protection regulations like GDPR, CCPA, and LGPD by providing tools for cookie consent, data anonymization, and GDPR training​.",
     "icon": "seersco.svg",
     "js": {
       "cb_banner_cpra_file_name": "\\.seersco\\.com/",
@@ -100427,7 +100894,7 @@
     "cats": [
       100
     ],
-    "description": "Simplio Upsells Ñreate more revenue with promotions and post purchase upsells.",
+    "description": "Simplio Upsells сreate more revenue with promotions and post purchase upsells.",
     "icon": "Simplio Upsells.svg",
     "implies": [
       "Shopify"
@@ -100536,11 +101003,11 @@
     ],
     "website": "https://www.simplycast.com"
   },
-  "SimplÃ©bo": {
+  "Simplébo": {
     "cats": [
       1
     ],
-    "description": "SimplÃ©bo is a French company that provides website creation and management services, including tools for building, hosting, and optimizing websites and ecommerce platforms.",
+    "description": "Simplébo is a French company that provides website creation and management services, including tools for building, hosting, and optimizing websites and ecommerce platforms.",
     "headers": {
       "X-ServedBy": "simplebo"
     },
@@ -100988,7 +101455,7 @@
     "cats": [
       52
     ],
-    "description": "SiteGPT is an AI-powered chatbot that delivers personalized customer support by generating responses grounded in a siteâ€™s existing content.",
+    "description": "SiteGPT is an AI-powered chatbot that delivers personalized customer support by generating responses grounded in a site’s existing content.",
     "icon": "SiteGPT.svg",
     "js": {
       "$sitegpt.push": "",
@@ -103605,7 +104072,7 @@
     "description": "SoftTr is a company that provides software solutions for ecommerce, web hosting, and domain registration services.",
     "icon": "softtr.svg",
     "meta": {
-      "author": "SoftTr E-Ticaret Sitesi YazÄ±lÄ±mÄ±"
+      "author": "SoftTr E-Ticaret Sitesi Yazılımı"
     },
     "website": "https://www.softtr.com"
   },
@@ -105409,7 +105876,7 @@
     "cats": [
       66
     ],
-    "description": "Sprig is a free plugin for Craft CMS that allows you to create reactive components from Twig templates â€‹or PHP classes.",
+    "description": "Sprig is a free plugin for Craft CMS that allows you to create reactive components from Twig templates ​or PHP classes.",
     "dom": [
       "form[sprig], button[sprig], input[sprig], div.sprig-component"
     ],
@@ -105981,7 +106448,7 @@
       53,
       41
     ],
-    "description": "Squire is a business management platform for barbershops, offering appointment scheduling, payment processing, and customer relationship management toolsâ€‹.",
+    "description": "Squire is a business management platform for barbershops, offering appointment scheduling, payment processing, and customer relationship management tools​.",
     "icon": "Squire.svg",
     "js": {
       "SquireWidget": "",
@@ -109449,8 +109916,7 @@
       "cdn\\.syteapi\\.com/"
     ],
     "website": "https://www.syte.ai"
-  }
-,
+  },
   "T-Soft": {
     "cats": [
       6
@@ -111116,7 +111582,7 @@
     "oss": true,
     "website": "https://github.com/darkroomengineering/tempus"
   },
-  "Tencent Analytics (è…¾è®¯åˆ†æž)": {
+  "Tencent Analytics (腾讯分析)": {
     "cats": [
       10
     ],
@@ -111721,7 +112187,7 @@
     "cats": [
       7
     ],
-    "description": "Theasys is a platform for creating, uploading, and embedding 360Â° VR panoramic images and virtual tours online.",
+    "description": "Theasys is a platform for creating, uploading, and embedding 360° VR panoramic images and virtual tours online.",
     "icon": "Theasys.svg",
     "js": {
       "theasys.api": ""
@@ -116956,8 +117422,7 @@
     ],
     "saas": true,
     "website": "https://tyslo.com"
-  }
-,
+  },
   "U-KOMI": {
     "cats": [
       90
@@ -119043,8 +119508,7 @@
       "\\.userly\\.net/"
     ],
     "website": "https://uzerly.fr"
-  }
-,
+  },
   "V2Board": {
     "cats": [
       64
@@ -120700,7 +121164,7 @@
     "cats": [
       12
     ],
-    "description": "Vike is a framework that enhances Vite applications with server-side rendering (SSR) and static site generation (SSG) capabilities, allowing for flexible integration and progressive enhancementâ€‹.",
+    "description": "Vike is a framework that enhances Vite applications with server-side rendering (SSR) and static site generation (SSG) capabilities, allowing for flexible integration and progressive enhancement​.",
     "dom": [
       "script#vike_pageContext"
     ],
@@ -121171,7 +121635,7 @@
     "cats": [
       74
     ],
-    "description": "Visioptâ„¢ is a powerful yet easy to use AI-driven Optimization System that enables you to manufacture your perfect customer at scale like a well oiled machine.",
+    "description": "Visiopt™ is a powerful yet easy to use AI-driven Optimization System that enables you to manufacture your perfect customer at scale like a well oiled machine.",
     "icon": "visiopt.png",
     "js": {
       "visiopt_code": ""
@@ -122020,7 +122484,7 @@
     "css": [
       "\\.vue-notification-group"
     ],
-    "description": "Vue.js is an open-source modelâ€“viewâ€“viewmodel JavaScript framework for building user interfaces and single-page applications.",
+    "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
     "dom": [
       ".vue-app",
       "link[href*='docsify/themes/vue.css']",
@@ -122291,8 +122755,7 @@
       "app\\.vyveplus\\.ai"
     ],
     "website": "https://vyveplus.ai"
-  }
-,
+  },
   "W3 Ataiva": {
     "cats": [
       10
@@ -123708,7 +124171,7 @@
       "XSLT"
     ],
     "meta": {
-      "generator": "^WeblicationÂ® CMS$"
+      "generator": "^Weblication® CMS$"
     },
     "pricing": [
       "recurring",
@@ -125967,7 +126430,7 @@
     "cats": [
       87
     ],
-    "description": "WooCommerce Stripe Payment Gateway plugin extends WooCommerce allowing you to take payments directly on your store via Stripeâ€™s API.",
+    "description": "WooCommerce Stripe Payment Gateway plugin extends WooCommerce allowing you to take payments directly on your store via Stripe’s API.",
     "dom": [
       "link[href*='/wp-content/plugins/woocommerce-gateway-stripe/']"
     ],
@@ -126618,7 +127081,7 @@
       5,
       76
     ],
-    "description": "Worldz calculates the economic value of a userâ€™s social popularity (qualitatively and quantitatively). In proportion to this value, it provides a personalised discount, which can be applied in exchange for a social sharing by the user on their Instagram or Facebook profile.",
+    "description": "Worldz calculates the economic value of a user’s social popularity (qualitatively and quantitatively). In proportion to this value, it provides a personalised discount, which can be applied in exchange for a social sharing by the user on their Instagram or Facebook profile.",
     "icon": "Worldz.svg",
     "pricing": [
       "mid",
@@ -127492,8 +127955,7 @@
       "/jquery\\.wysibb\\.min\\.js"
     ],
     "website": "https://wysibb.com"
-  }
-,
+  },
   "X-Cart": {
     "cats": [
       6
@@ -127640,7 +128102,7 @@
       "html[id*='XenForo'], html[id*='XF']"
     ],
     "html": [
-      "(?:jQuery\\.extend\\(true, XenForo|<a[^>]+>Forum software by XenForoâ„¢|<!--XF:branding|<html[^>]+id=\"XenForo\")",
+      "(?:jQuery\\.extend\\(true, XenForo|<a[^>]+>Forum software by XenForo™|<!--XF:branding|<html[^>]+id=\"XenForo\")",
       "<html id=\"XF\" "
     ],
     "icon": "XenForo.svg",
@@ -128083,7 +128545,7 @@
     "cats": [
       25
     ],
-    "description": "Xzero JS is a JavaScript library (ES6 module) for displaying 3D models, scenes and 360Â° panoramas on the web.",
+    "description": "Xzero JS is a JavaScript library (ES6 module) for displaying 3D models, scenes and 360° panoramas on the web.",
     "icon": "XzeroJS.svg",
     "pricing": [
       "freemium"
@@ -128092,8 +128554,7 @@
       "xzero-js@([\\d.]+)/xzero\\.min\\.js.*\\;version:\\1"
     ],
     "website": "https://xzerojs.org"
-  }
-,
+  },
   "YaBB": {
     "cats": [
       2
@@ -128387,7 +128848,7 @@
       22
     ],
     "cpe": "cpe:2.3:a:yaws:yaws:*:*:*:*:*:*:*:*",
-    "description": "Yaws (Yet Another Web Server) is an open-source web server designed to deliver dynamic content efficiently. It was developed by Claes (klacke) WikstrÃ¶m and is written in Erlang, a functional programming language.",
+    "description": "Yaws (Yet Another Web Server) is an open-source web server designed to deliver dynamic content efficiently. It was developed by Claes (klacke) Wikström and is written in Erlang, a functional programming language.",
     "headers": {
       "Server": "Yaws(?: ([\\d.]+))?\\;version:\\1"
     },
@@ -128439,7 +128900,7 @@
       6
     ],
     "cpe": "cpe:2.3:a:open-classifieds:open_classifieds:*:*:*:*:*:*:*:*",
-    "description": "Yclas is a platform that allows users to create and manage customizable online classified ads websites, available as both a hosted service and an open-source self-hosted solutionâ€‹ .",
+    "description": "Yclas is a platform that allows users to create and manage customizable online classified ads websites, available as both a hosted service and an open-source self-hosted solution​ .",
     "icon": "Yclas.svg",
     "meta": {
       "author": "open-classifieds\\.com",
@@ -128567,7 +129028,7 @@
       32,
       75
     ],
-    "description": "Yeps is a minimalist bar that can be added to the top or bottom of your website to collect visitorâ€™s emails and promote content.",
+    "description": "Yeps is a minimalist bar that can be added to the top or bottom of your website to collect visitor’s emails and promote content.",
     "icon": "Yeps.svg",
     "js": {
       "Yeps": ""
@@ -129404,8 +129865,7 @@
       "analytics\\.yxper\\.com"
     ],
     "website": "https://yxper.com"
-  }
-,
+  },
   "Zabbix": {
     "cats": [
       19
@@ -129489,7 +129949,7 @@
       87,
       76
     ],
-    "description": "Zakeke Interactive Product Designer lets customers personalise any product and visualise how theyâ€™ll look before checking out.",
+    "description": "Zakeke Interactive Product Designer lets customers personalise any product and visualise how they’ll look before checking out.",
     "icon": "Zakeke.png",
     "implies": [
       "Zakeke"
@@ -131194,491 +131654,5 @@
       "\\.zyratalk\\.com"
     ],
     "website": "https://www.zyratalk.com"
-  }
-,
-  "11Sight": {
-    "cats": [
-      52,
-      53
-    ],
-    "description": "11Sight is an AI-powered, omnichannel platform enabling users to receive inbound video calls from any online channel, facilitating sales conversations and lead conversions.",
-    "icon": "11Sight.svg",
-    "js": {
-      "elevensight": "",
-      "elevensightApp": ""
-    },
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "app\\.11sight\\.com/"
-    ],
-    "website": "https://www.11sight.com"
-  },
-  "1C-Bitrix": {
-    "cats": [
-      1,
-      6
-    ],
-    "cookies": {
-      "BITRIX_SM_GUEST_ID": "",
-      "BITRIX_SM_LAST_IP": "",
-      "BITRIX_SM_SALE_UID": ""
-    },
-    "description": "1C-Bitrix is a system of web project management, universal software for the creation, support and successful development of corporate websites and online stores.",
-    "headers": {
-      "Set-Cookie": "BITRIX_",
-      "X-Powered-CMS": "Bitrix Site Manager"
-    },
-    "icon": "1C-Bitrix.svg",
-    "implies": [
-      "PHP"
-    ],
-    "pricing": [
-      "onetime",
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "bitrix(?:\\.info/|/js/main/core)"
-    ],
-    "website": "https://www.1c-bitrix.ru"
-  },
-  "24nettbutikk": {
-    "cats": [
-      6
-    ],
-    "cookies": {
-      " _gat_24nb": "\\;confidence:50",
-      "24nb": "\\;confidence:50"
-    },
-    "description": "24nettbutikk is an ecommerce platform from Norway.",
-    "icon": "24nettbutikk.svg",
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "requires": [
-      "Cart Functionality"
-    ],
-    "saas": true,
-    "website": "https://www.24nettbutikk.no"
-  },
-  "2B Advice": {
-    "cats": [
-      67
-    ],
-    "description": "2B Advice provides a plug-in to manage GDPR cookie consent.",
-    "icon": "2badvice.png",
-    "js": {
-      "BBCookieControler": ""
-    },
-    "saas": true,
-    "scriptSrc": [
-      "2badvice-cdn\\.azureedge\\.net"
-    ],
-    "website": "https://www.2b-advice.com/en/data-privacy-software/cookie-consent-plugin/"
-  },
-  "2ClickShop": {
-    "cats": [
-      6
-    ],
-    "description": "2ClickShop is an ecommerce platform integrated with ERP systems, catering to both B2B and B2C transactions.",
-    "icon": "2ClickShop.svg",
-    "meta": {
-      "author": "^Trol Intermedia / 2ClickShop$"
-    },
-    "pricing": [
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://2click.pl"
-  },
-  "30namaPlayer": {
-    "cats": [
-      14
-    ],
-    "description": "30namaPlayer is a modified version of Video.js to work with videos on HTML using javascript.",
-    "dom": [
-      "section[class*='player30nama']"
-    ],
-    "icon": "30namaPlayer.png",
-    "website": "https://30nama.com/"
-  },
-  "321 CMS": {
-    "cats": [
-      1
-    ],
-    "description": "321 CMS is a content management system that enables users to create and manage websites without requiring coding knowledge.",
-    "icon": "321CMS.svg",
-    "meta": {
-      "author": "^321 CREATIVE CREW"
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.321web.cz"
-  },
-  "33Across": {
-    "cats": [
-      36
-    ],
-    "description": "33Across is a technology company focused on solving the challenge of consumer attention for automated advertising.",
-    "dom": [
-      "iframe[src*='.33across.com'], link[href*='.33across.com'], link[href*='.tynt.com']"
-    ],
-    "icon": "33Across.svg",
-    "js": {
-      "Tynt": ""
-    },
-    "saas": true,
-    "scriptSrc": [
-      "\\.33across\\.com/",
-      "\\.tynt\\.com/"
-    ],
-    "website": "https://www.33across.com",
-    "xhr": [
-      "\\.33across\\.com"
-    ]
-  },
-  "34SP.com": {
-    "cats": [
-      88
-    ],
-    "description": "34SP.com specialises in website hosting, discount domain names, low cost VPS servers and dedicated servers.",
-    "dns": {
-      "SOA": [
-        "ns(?:\\d+)?\\.34sp\\.com"
-      ]
-    },
-    "icon": "34SP.com.svg",
-    "pricing": [
-      "recurring",
-      "low"
-    ],
-    "website": "https://www.34sp.com"
-  },
-  "4-Tell": {
-    "cats": [
-      76
-    ],
-    "cookies": {
-      "4Tell": "",
-      "4TellCart": "",
-      "4TellSession": ""
-    },
-    "description": "4-Tell is an ecommerce software company for retailers with AI-powered personalisation and recommendations products.",
-    "icon": "4-Tell.svg",
-    "js": {
-      "_4TellBoost": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "4tellcdn\\.azureedge\\.net"
-    ],
-    "website": "https://4-tell.com"
-  },
-  "42Chat": {
-    "cats": [
-      52
-    ],
-    "description": "42Chat is a provider of conversational AI solutions and text-based chatbots designed to connect clients with their communities.",
-    "icon": "42Chat.svg",
-    "saas": true,
-    "scriptSrc": [
-      "api\\.42chat\\.com"
-    ],
-    "website": "https://www.42chat.com"
-  },
-  "42stores": {
-    "cats": [
-      6
-    ],
-    "description": "42stores is a French SaaS ecommerce solution that was established in 2008. It offers a range of features such as monitoring, customer support, and regular updates. The platform is known for its flexibility and modularity, making it possible to integrate with various ERP systems.",
-    "headers": {
-      "Powered-By": "^42stores$"
-    },
-    "icon": "42stores.svg",
-    "pricing": [
-      "poa",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.42stores.com"
-  },
-  "4Partners": {
-    "cats": [
-      99
-    ],
-    "description": "4Partners is an international dropshipping service that allows you to launch a ready-made online store.",
-    "icon": "4Partners.svg",
-    "pricing": [
-      "poa"
-    ],
-    "website": "https://4partners.io/en/"
-  },
-  "4Partners CMS": {
-    "cats": [
-      6
-    ],
-    "description": "4Partners CMS is a cloud-based solution designed for ecommerce shops.",
-    "icon": "4Partners.svg",
-    "implies": [
-      "PHP",
-      "4Partners",
-      "Nginx"
-    ],
-    "meta": {
-      "author": "^4CMS$"
-    },
-    "pricing": [
-      "poa"
-    ],
-    "website": "https://4partners.io/en/4p-cms"
-  },
-  "51.LA": {
-    "cats": [
-      10
-    ],
-    "description": "51.LA is a Chinese based website visitor counter.",
-    "icon": "51.LA.png",
-    "js": {
-      "LA.config.ck": ""
-    },
-    "pricing": [
-      "freemium",
-      "recurring",
-      "payg"
-    ],
-    "saas": true,
-    "website": "https://www.51.la"
-  },
-  "52Degrees": {
-    "cats": [
-      10
-    ],
-    "description": "52Degrees is a data platform formerly known as Handset Detection, providing real-time device and data insights for digital businesses.",
-    "icon": "52Degrees.svg",
-    "pricing": [
-      "freemium",
-      "mid",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "api\\.handsetdetection\\.com"
-    ],
-    "scripts": [
-      "'api\\.handsetdetection\\.com"
-    ],
-    "website": "https://51degrees.com"
-  },
-  "5centsCDN": {
-    "cats": [
-      31
-    ],
-    "description": "5centsCDN is a content delivery networks service provider.",
-    "dom": [
-      "link[href*='.5centscdn.com/']"
-    ],
-    "headers": {
-      "x-cdn": "^5centsCDN$"
-    },
-    "icon": "5centsCDN.svg",
-    "pricing": [
-      "recurring",
-      "low"
-    ],
-    "scriptSrc": [
-      "\\.5centscdn\\.com/"
-    ],
-    "website": "https://www.5centscdn.net"
-  },
-  "6sense": {
-    "cats": [
-      32,
-      76
-    ],
-    "description": "6sense is a B2B predictive intelligence platform for marketing and sales.",
-    "headers": {
-      "Content-Security-Policy": "\\.6sc\\.co/"
-    },
-    "icon": "6sense.svg",
-    "pricing": [
-      "poa",
-      "high",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.6sc\\.co/"
-    ],
-    "website": "https://6sense.com"
-  },
-  "6Valley eCommerce CMS": {
-    "cats": [
-      1,
-      6
-    ],
-    "cookies": {
-      "6valley_session": ""
-    },
-    "description": "6Valley eCommerce CMS is a multi-vendor platform designed to facilitate business launches by providing tools for managing vendors, products, and transactions within an ecommerce ecosystem.",
-    "icon": "6ValleyEcommerceCMS.svg",
-    "pricing": [
-      "onetime"
-    ],
-    "scripts": [
-      "6valley_cookie_consent"
-    ],
-    "website": "https://6valley.app"
-  },
-  "7moor": {
-    "cats": [
-      32,
-      53
-    ],
-    "description": "7moor is an integrated customer service marketing solution that combines communication, customer support, and marketing tools.",
-    "icon": "7moor.svg",
-    "js": {
-      "moor7Source": ""
-    },
-    "saas": true,
-    "website": "https://www.7moor.com"
-  },
-  "7Shifts": {
-    "cats": [
-      101
-    ],
-    "description": "7Shifts is an all-in-one team management platform designed to streamline restaurant operations, providing tools for scheduling, communication, and task management to simplify day-to-day activities for both managers and staff.",
-    "dom": [
-      "a[href*='7shifts.com/'] > img[src*='.7shifts.com/']"
-    ],
-    "icon": "7Shifts.svg",
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.7shifts.com"
-  },
-  "8base": {
-    "cats": [
-      3,
-      62
-    ],
-    "description": "8base is a low-code development platform for building and running enterprise-grade digital products including SaaS solutions, marketplaces and other go-to-market applications.",
-    "icon": "8base.svg",
-    "pricing": [
-      "low",
-      "freemium",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://8base.com",
-    "xhr": [
-      "api\\.8base\\.com"
-    ]
-  },
-  "8x8": {
-    "cats": [
-      52
-    ],
-    "description": "8x8 is a communication tool offering chat functionality for streamlined business communication.",
-    "icon": "8x8.svg",
-    "js": {
-      "Chat8x8": "",
-      "__8x8Chat": ""
-    },
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.8x8.com"
-  },
-  "91App": {
-    "cats": [
-      6
-    ],
-    "description": "91App is a Taiwan-based platform that provides solutions for retail stores.",
-    "icon": "91App.svg",
-    "saas": true,
-    "scriptSrc": [
-      "cdn\\.91app\\.com/"
-    ],
-    "website": "https://91app.com"
-  },
-  "99minds": {
-    "cats": [
-      84
-    ],
-    "description": "99minds is an online platform for managing and scaling gift cards, store credit, digital wallets, and loyalty programs.",
-    "icon": "99minds.svg",
-    "js": {
-      "_99mindsDataLayer": ""
-    },
-    "pricing": [
-      "low",
-      "recurring",
-      "poa"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "\\.99minds\\.io"
-    ],
-    "website": "https://www.99minds.io"
-  },
-  "<model-viewer>": {
-    "cats": [
-      105
-    ],
-    "description": "<model-viewer> is an open-source web component developed by Google and maintained through GitHub. <model-viewer> aims at putting 3D content on the web easily with a few lines of HTML code. This was first introduced with Chrome 72 in July 2019 and enables users to view 3D in the browser and mobile devices.",
-    "dom": [
-      "model-viewer"
-    ],
-    "icon": "model-viewer.svg",
-    "oss": true,
-    "scriptSrc": [
-      "/model-viewer/dist/model-viewer\\.min\\.js"
-    ],
-    "website": "https://modelviewer.dev"
-  },
-  "@sulu/web": {
-    "cats": [
-      59
-    ],
-    "icon": "Sulu.svg",
-    "js": {
-      "web.startComponents": ""
-    },
-    "website": "https://github.com/sulu/web-js"
-  },
-  "_hyperscript": {
-    "cats": [
-      59
-    ],
-    "description": "_hyperscript is a scripting language for adding interactivity to the front-end.",
-    "icon": "_hyperscript.png",
-    "js": {
-      "_hyperscript": ""
-    },
-    "oss": true,
-    "scriptSrc": [
-      "//unpkg\\.com/hyperscript\\.org@([\\d\\.]+)\\;version:\\1"
-    ],
-    "website": "https://hyperscript.org"
   }
 }
