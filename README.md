@@ -49,7 +49,7 @@
 3. Click **Load Temporary Add-on**
 4. Select any file inside the repository folder (e.g. `manifest.json`)
 
-> For a permanent Firefox install, the extension must be signed via [addons.mozilla.org](https://addons.mozilla.org/developers/).
+> For a permanent Firefox install, the extension must be signed via [addons.mozilla.org](https://addons.mozilla.org/developers/) - currently not planned
 
 ## Requirements
 
