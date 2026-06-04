@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -28,26 +27,14 @@ jobs:
       - name: Run dataset update script
         run: node update.js
 
-      - name: Check for changes
-        id: git-check
+      - name: Commit and push changes
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
           if [ -n "$(git status --porcelain)" ]; then
-            echo "changes=true" >> $GITHUB_OUTPUT
+            git commit -m "chore: automated webappanalyzer dataset update"
+            git push
+          else
+            echo "No changes to commit."
           fi
-
-      - name: Create Pull Request
-        if: steps.git-check.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: automated webappanalyzer dataset update'
-          title: 'Auto-Update: WebAppAnalyzer Dataset'
-          body: |
-            This PR automatically updates the technology dataset and icons from the `enthec/webappanalyzer` repository.
-
-            **Changes:**
-            - Merged latest JSON technology definitions.
-            - Updated `categories.json`.
-            - Synced latest SVG/PNG icons.
-          branch: update-dataset
-          labels: automated-update
