@@ -2,8 +2,8 @@ name: Update Technology Dataset
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
-  workflow_dispatch: # Allows you to run it manually from the Actions tab
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 jobs:
   update-dataset:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
@@ -24,15 +24,17 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Create Pull Request
         if: steps.git-check.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: automated webappanalyzer dataset update'
-          title: '🔄 Auto-Update: WebAppAnalyzer Dataset'
+          title: 'Auto-Update: WebAppAnalyzer Dataset'
           body: |
             This PR automatically updates the technology dataset and icons from the `enthec/webappanalyzer` repository.
 
