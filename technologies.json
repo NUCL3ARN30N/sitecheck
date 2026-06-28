@@ -6381,6 +6381,24 @@
     ],
     "website": "https://www.anthology.com/products/lifecycle-engagement/alumni-and-advancement/anthology-encompass"
   },
+  "Anthropic": {
+    "cats": [
+      112
+    ],
+    "description": "Anthropic is an AI safety company that develops Claude, a family of large language models, and provides an API for building AI-powered applications. The anthropic-domain-verification TXT record confirms domain ownership for Anthropic services.",
+    "dns": {
+      "TXT": [
+        "anthropic-domain-verification"
+      ]
+    },
+    "icon": "Anthropic.svg",
+    "pricing": [
+      "payg",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.anthropic.com"
+  },
   "AntiBot.Cloud": {
     "cats": [
       16
@@ -27145,6 +27163,24 @@
     "icon": "Curaytor.svg",
     "saas": true,
     "website": "https://www.curaytor.com"
+  },
+  "Cursor": {
+    "cats": [
+      112
+    ],
+    "description": "Cursor is an AI-powered code editor (IDE) that uses large language models to generate, edit, and explain code. The cursor-domain-verification TXT record confirms domain ownership for Cursor services.",
+    "dns": {
+      "TXT": [
+        "cursor-domain-verification"
+      ]
+    },
+    "icon": "Cursor.svg",
+    "pricing": [
+      "payg",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.cursor.com"
   },
   "Custobar": {
     "cats": [
@@ -56766,6 +56802,27 @@
     ],
     "website": "https://developers.kakao.com/product"
   },
+  "KaliCart Bridge": {
+    "cats": [
+      6
+    ],
+    "description": "KaliCart Bridge is a WooCommerce plugin that exposes a structured REST API and MCP server, making the store catalog readable by AI agents and MCP clients.",
+    "html": [
+      "<link[^>]+rel=[\"']kalicart-agent[\"'][^>]*>",
+      "wp-json\\/kalicart\\/v1\\/discovery"
+    ],
+    "implies": [
+      "WooCommerce"
+    ],
+    "pricing": [
+      "freemium"
+    ],
+    "saas": false,
+    "url": [
+      "\\.well-known\\/kalicart-bridge\\.json"
+    ],
+    "website": "https://bridge.kalicart.com"
+  },
   "Kalio": {
     "cats": [
       6
@@ -59221,6 +59278,25 @@
       "data\\.krossbooking\\.com/"
     ],
     "website": "https://www.krossbooking.com"
+  },
+  "KRT CDN": {
+    "cats": [
+      31
+    ],
+    "description": "KRT CDN is a Content Delivery Network used for delivering assets securely and quickly.",
+    "dom": [
+      "link[href*='cdn.krajtilak.in']",
+      "img[src*='cdn.krajtilak.in']"
+    ],
+    "icon": "KRT CDN.svg",
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.krajtilak\\.in"
+    ],
+    "website": "https://krajtilak.in",
+    "xhr": [
+      "cdn\\.krajtilak\\.in"
+    ]
   },
   "Kssib": {
     "cats": [
@@ -63480,12 +63556,18 @@
   },
   "Lovable": {
     "cats": [
-      51
+      51,
+      112
     ],
     "cookies": {
       "lovable-preview-mode": ""
     },
     "description": "Lovable is an AI-powered collaborative page builder for generating UI components, projects, and templates in real time.",
+    "dns": {
+      "TXT": [
+        "lovable_verification="
+      ]
+    },
     "dom": {
       "link[href*='/lovable-uploads/']": {
         "exists": ""
@@ -73985,6 +74067,11 @@
     ],
     "cpe": "cpe:2.3:a:notion:notion:*:*:*:*:*:*:*:*",
     "description": "Notion is a collaboration platform with modified Markdown support that integrates kanban boards, tasks, wikis, and database.",
+    "dns": {
+      "TXT": [
+        "notion-domain-verification="
+      ]
+    },
     "dom": [
       "html.notion-html"
     ],
@@ -125828,6 +125915,24 @@
     "icon": "WindowsServer.png",
     "website": "https://microsoft.com/windowsserver"
   },
+  "Windsurf": {
+    "cats": [
+      112
+    ],
+    "description": "Windsurf (formerly Codeium) is an AI-powered code editor (IDE) that uses large language models for code generation, completion, and agentic workflows. The windsurf-verification TXT record confirms domain ownership for Windsurf services.",
+    "dns": {
+      "TXT": [
+        "windsurf-verification="
+      ]
+    },
+    "icon": "Windsurf.svg",
+    "pricing": [
+      "payg",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://windsurf.com"
+  },
   "WINEAROUND": {
     "cats": [
       93
@@ -130286,6 +130391,24 @@
       "zanox\\.com/scripts/zanox\\.js$"
     ],
     "website": "https://zanox.com"
+  },
+  "Zapier": {
+    "cats": [
+      47
+    ],
+    "description": "Zapier is a workflow automation platform that connects apps and services to build automated workflows (Zaps) without code. The zapier-domain-verification-challenge TXT record confirms domain ownership for Zapier services.",
+    "dns": {
+      "TXT": [
+        "zapier-domain-verification-challenge="
+      ]
+    },
+    "icon": "Zapier.svg",
+    "pricing": [
+      "payg",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://zapier.com"
   },
   "Zapiet": {
     "cats": [
