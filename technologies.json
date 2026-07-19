@@ -14793,7 +14793,7 @@
       "jQuery.fn.tooltip.Constructor.VERSION": "^(.+)$\\;version:\\1"
     },
     "scriptSrc": [
-      "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1"
+      "(?:/|-)bootstrap(?:[^/]*?([0-9a-fA-F]{7,40}|[\\d]+(?:\\.[\\d]+(?:\\.[\\d]+)?)?)|)[^/]*?(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://getbootstrap.com"
   },
@@ -28381,7 +28381,7 @@
       "dcAPIKey": ""
     },
     "scriptSrc": [
-      "(?:((?:\\d+\\.)+\\d+)\\/(?:dc\\/)?)?dc(?:\\.leaflet)?\\.js\\;version:\\1"
+      "(?:((?:\\d+\\.)+\\d+)\\/(?:dc\\/)?)?(?:/|-)dc(?:\\.leaflet)?\\.js\\;version:\\1"
     ],
     "website": "https://dc-js.github.io/dc.js/"
   },
