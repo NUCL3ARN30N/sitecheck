@@ -21264,9 +21264,6 @@
     "js": {
       "cbtb": ""
     },
-    "scriptSrc": [
-      "r\\.wdfl\\.co"
-    ],
     "website": "https://www.clickbank.com/"
   },
   "Clickbooq": {
@@ -23670,6 +23667,25 @@
       "(?:mycommercio|commerciostores)\\.com/"
     ],
     "website": "https://commercio.com"
+  },
+  "Commercy": {
+    "cats": [
+      6
+    ],
+    "description": "Commercy is an Argentine commerce platform that combines an online store, point of sale, inventory and ARCA/AFIP electronic invoicing in a single system.",
+    "icon": "Commercy.svg",
+    "implies": [
+      "Next.js"
+    ],
+    "meta": {
+      "generator": "^Commercy$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://commercy.com.ar"
   },
   "Common Ground": {
     "cats": [
