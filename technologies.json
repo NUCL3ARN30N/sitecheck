@@ -950,6 +950,9 @@
     ],
     "description": "AccessiWay is a solution focused on digital accessibility and compliance for organizations seeking to meet established standards.",
     "icon": "AccessiWay.svg",
+    "js": {
+      "accessWidget.config.footerHtml": ""
+    },
     "pricing": [
       "poa"
     ],
@@ -2335,6 +2338,20 @@
       "trac\\.adnymics\\.com"
     ],
     "website": "https://adnymics.com"
+  },
+  "Adobe": {
+    "cats": [
+      19
+    ],
+    "description": "Adobe enterprise domain claim, used by the Adobe Admin Console to verify ownership of a domain for Adobe identity management.",
+    "dns": {
+      "TXT": [
+        "adobe-idp-site-verification="
+      ]
+    },
+    "icon": "Adobe.svg",
+    "saas": true,
+    "website": "https://www.adobe.com"
   },
   "Adobe Analytics": {
     "cats": [
@@ -3835,6 +3852,11 @@
     "dom": [
       "iframe[scr*='//airtable.com/'], a[href*='//airtable.com/'][target='_blank']"
     ],
+    "dns": {
+      "TXT": [
+        "airtable-verification="
+      ]
+    },
     "icon": "Airtable.svg",
     "pricing": [
       "freemium",
@@ -5331,7 +5353,8 @@
     "description": "Amazon Simple Email Service (SES) is an email service that enables developers to send mail from within any application.",
     "dns": {
       "TXT": [
-        "amazonses\\.com"
+        "amazonses\\.com",
+        "^amazonses:"
       ]
     },
     "icon": "Amazon SES.svg",
@@ -8907,6 +8930,21 @@
     ],
     "website": "https://www.atlassian.com/software/bitbucket/overview/"
   },
+  "Atlassian Cloud": {
+    "cats": [
+      47
+    ],
+    "description": "Atlassian Cloud is the hosted platform behind Atlassian products such as Jira, Confluence and Bitbucket.",
+    "dns": {
+      "TXT": [
+        "atlassian-domain-verification=",
+        "atlassian-sending-domain-verification="
+      ]
+    },
+    "icon": "Atlassian.svg",
+    "saas": true,
+    "website": "https://www.atlassian.com"
+  },
   "Atlassian Confluence": {
     "cats": [
       8
@@ -9466,6 +9504,20 @@
       "static\\.autoconf\\.com"
     ],
     "website": "https://autoconf.com.br"
+  },
+  "Autodesk": {
+    "cats": [
+      19
+    ],
+    "description": "Autodesk provides design, engineering and construction software.",
+    "dns": {
+      "TXT": [
+        "autodesk-domain-verification="
+      ]
+    },
+    "icon": "Autodesk.svg",
+    "saas": true,
+    "website": "https://www.autodesk.com"
   },
   "Autoketing": {
     "cats": [
@@ -15297,6 +15349,20 @@
     "saas": true,
     "website": "https://www.bowtie.ai"
   },
+  "Box": {
+    "cats": [
+      95
+    ],
+    "description": "Box is a cloud content management and file sharing platform.",
+    "dns": {
+      "TXT": [
+        "box-domain-verification="
+      ]
+    },
+    "icon": "Box.png",
+    "saas": true,
+    "website": "https://www.box.com"
+  },
   "Boxmode": {
     "cats": [
       51
@@ -17530,6 +17596,11 @@
       51
     ],
     "description": "Canva is an online graphic design platform that allows users to create various visual content using pre-designed templates and a library of elements.",
+    "dns": {
+      "TXT": [
+        "canva-site-verification="
+      ]
+    },
     "icon": "Canva.svg",
     "js": {
       "canva_debounceResize": "",
@@ -20434,6 +20505,21 @@
     "saas": true,
     "website": "https://circle.so"
   },
+  "Cisco": {
+    "cats": [
+      37
+    ],
+    "description": "Cisco networking, collaboration and security services domain verification.",
+    "dns": {
+      "TXT": [
+        "cisco-ci-domain-verification=",
+        "ciscocidomainverification="
+      ]
+    },
+    "icon": "Cisco.svg",
+    "saas": true,
+    "website": "https://www.cisco.com"
+  },
   "Citizen Space": {
     "cats": [
       1
@@ -22109,6 +22195,9 @@
       ],
       "SOA": [
         "\\.cloudflare\\.com"
+      ],
+      "TXT": [
+        "cloudflare_dashboard_sso="
       ]
     },
     "dom": [
@@ -30341,6 +30430,11 @@
     "html": [
       "<!-- This comment is expected by the docker HEALTHCHECK  -->"
     ],
+    "dns": {
+      "TXT": [
+        "docker-verification="
+      ]
+    },
     "icon": "Docker.svg",
     "website": "https://www.docker.com/"
   },
@@ -31436,6 +31530,11 @@
       52
     ],
     "description": "Drift is a conversational marketing platform.",
+    "dns": {
+      "TXT": [
+        "drift-domain-verification="
+      ]
+    },
     "icon": "Drift.svg",
     "js": {
       "drift": "",
@@ -32079,6 +32178,11 @@
       "dtCookie1": ""
     },
     "description": "Dynatrace is a technology company that produces a software intelligence platform based on artificial intelligence to monitor and optimise application performance and development, IT infrastructure, and user experience for businesses and government agencies throughout the world.",
+    "dns": {
+      "TXT": [
+        "Dynatrace-site-verification="
+      ]
+    },
     "icon": "Dynatrace.svg",
     "js": {
       "dtrum": ""
@@ -33953,6 +34057,20 @@
     ],
     "saas": true,
     "website": "https://www.getelevar.com"
+  },
+  "ElevenLabs": {
+    "cats": [
+      112
+    ],
+    "description": "ElevenLabs provides AI speech synthesis and voice cloning services.",
+    "dns": {
+      "TXT": [
+        "^elevenlabs="
+      ]
+    },
+    "icon": "ElevenLabs.svg",
+    "saas": true,
+    "website": "https://elevenlabs.io"
   },
   "Eleventy": {
     "cats": [
@@ -38430,6 +38548,20 @@
     "saas": true,
     "website": "https://www.fieldstack.com/platform/omnichannel-ecommerce-software"
   },
+  "Figma": {
+    "cats": [
+      19
+    ],
+    "description": "Figma is a collaborative interface design and prototyping platform.",
+    "dns": {
+      "TXT": [
+        "figma-domain-verification="
+      ]
+    },
+    "icon": "Figma.png",
+    "saas": true,
+    "website": "https://www.figma.com"
+  },
   "Filamentphp": {
     "cats": [
       47
@@ -39380,6 +39512,20 @@
       "generator": "^FlexCMP"
     },
     "website": "https://www.flexcmp.com/cms/home"
+  },
+  "Flexera": {
+    "cats": [
+      19
+    ],
+    "description": "Flexera provides IT asset management and software spend optimisation.",
+    "dns": {
+      "TXT": [
+        "flexera-domain-verification-"
+      ]
+    },
+    "icon": "Flexera.png",
+    "saas": true,
+    "website": "https://www.flexera.com"
   },
   "FlexiFunnels": {
     "cats": [
@@ -44792,6 +44938,20 @@
     ],
     "website": "https://www.globalshopex.com"
   },
+  "GlobalSign": {
+    "cats": [
+      70
+    ],
+    "description": "GlobalSign is a certificate authority providing TLS, code signing and identity certificates.",
+    "dns": {
+      "TXT": [
+        "_?globalsign-domain-verification="
+      ]
+    },
+    "icon": "GlobalSign.svg",
+    "saas": true,
+    "website": "https://www.globalsign.com"
+  },
   "Globo Also Bought": {
     "cats": [
       100
@@ -47797,6 +47957,20 @@
     ],
     "website": "https://github.com/lrsjng/h5ai"
   },
+  "HackerOne": {
+    "cats": [
+      16
+    ],
+    "description": "HackerOne is a vulnerability disclosure and bug bounty platform.",
+    "dns": {
+      "TXT": [
+        "h1-domain-verification="
+      ]
+    },
+    "icon": "HackerOne.svg",
+    "saas": true,
+    "website": "https://www.hackerone.com"
+  },
   "Haddock": {
     "cats": [
       4
@@ -48226,6 +48400,20 @@
       "\\.harnessapp\\.com"
     ],
     "website": "https://www.goharness.com/nonprofits"
+  },
+  "HashiCorp Cloud Platform": {
+    "cats": [
+      62
+    ],
+    "description": "HashiCorp Cloud Platform is the managed service offering for HashiCorp products such as Terraform, Vault, Consul and Boundary.",
+    "dns": {
+      "TXT": [
+        "hcp-domain-verification="
+      ]
+    },
+    "icon": "HashiCorp.svg",
+    "saas": true,
+    "website": "https://www.hashicorp.com/cloud"
   },
   "Hashnode": {
     "cats": [
@@ -50418,6 +50606,20 @@
     "icon": "HP.svg",
     "website": "https://hp.com"
   },
+  "HPE GreenLake": {
+    "cats": [
+      63
+    ],
+    "description": "HPE GreenLake is Hewlett Packard Enterprise's hybrid cloud platform delivering infrastructure as a service.",
+    "dns": {
+      "TXT": [
+        "hpe-greenlake-domain-verification="
+      ]
+    },
+    "icon": "HPE GreenLake.svg",
+    "saas": true,
+    "website": "https://www.hpe.com/us/en/greenlake.html"
+  },
   "HrFlow.ai": {
     "cats": [
       101
@@ -51460,6 +51662,20 @@
     ],
     "saas": true,
     "website": "https://www.ibexa.co"
+  },
+  "IBM": {
+    "cats": [
+      19
+    ],
+    "description": "IBM enterprise domain claim, used by IBMid to verify ownership of a domain for IBM Cloud and IBM account management.",
+    "dns": {
+      "TXT": [
+        "^ibmid="
+      ]
+    },
+    "icon": "IBM.svg",
+    "saas": true,
+    "website": "https://www.ibm.com"
   },
   "IBM Carbon Design System": {
     "cats": [
@@ -54935,6 +55151,20 @@
     ],
     "website": "https://www.jameda.de"
   },
+  "Jamf": {
+    "cats": [
+      16
+    ],
+    "description": "Jamf is an Apple device management (MDM) and endpoint security platform.",
+    "dns": {
+      "TXT": [
+        "jamf-site-verification="
+      ]
+    },
+    "icon": "Jamf.svg",
+    "saas": true,
+    "website": "https://www.jamf.com"
+  },
   "JamFeed": {
     "cats": [
       1
@@ -55251,6 +55481,20 @@
     ],
     "saas": true,
     "website": "https://www.jetboost.io"
+  },
+  "JetBrains": {
+    "cats": [
+      47
+    ],
+    "description": "JetBrains develops IDEs and developer tools including IntelliJ IDEA and TeamCity.",
+    "dns": {
+      "TXT": [
+        "jetbrains-domain-verification="
+      ]
+    },
+    "icon": "JetBrains.png",
+    "saas": true,
+    "website": "https://www.jetbrains.com"
   },
   "JetEngine": {
     "cats": [
@@ -61786,6 +62030,11 @@
       53
     ],
     "description": "Linear is a platform for collecting payments and managing business operations, offering sales and marketing tools for real estate agents, extending beyond a traditional brokerage system.",
+    "dns": {
+      "TXT": [
+        "linear-domain-verification="
+      ]
+    },
     "icon": "Linear.svg",
     "js": {
       "linearFrontend": ""
@@ -62553,6 +62802,20 @@
     ],
     "website": "https://www.liveperson.com"
   },
+  "LiveRamp": {
+    "cats": [
+      97
+    ],
+    "description": "LiveRamp is an identity resolution and data collaboration platform.",
+    "dns": {
+      "TXT": [
+        "liveramp-site-verification="
+      ]
+    },
+    "icon": "LiveRamp.svg",
+    "saas": true,
+    "website": "https://liveramp.com"
+  },
   "LiveRamp DPM": {
     "cats": [
       36
@@ -63051,6 +63314,21 @@
     ],
     "website": "https://www.logaholic.com"
   },
+  "LogaTech": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "LogaTech is a web development company offering a platform used to build and manage multi-tenant CMS, CRM and e-commerce websites.",
+    "headers": {
+      "X-Powered-By": "^LogaTech$"
+    },
+    "icon": "LogaTech.png",
+    "meta": {
+      "generator": "^LogaTech$"
+    },
+    "website": "https://logatech.net"
+  },
   "Loggly": {
     "cats": [
       10
@@ -63355,7 +63633,8 @@
     ],
     "dns": {
       "TXT": [
-        "loom-verification"
+        "loom-verification",
+        "loom-site-verification="
       ]
     },
     "icon": "Loom.svg",
@@ -67487,6 +67766,20 @@
     ],
     "website": "https://messagemedia.com"
   },
+  "Meta": {
+    "cats": [
+      19
+    ],
+    "description": "Meta domain verification, used by Meta Business to prove ownership of a domain for Facebook and Instagram business assets.",
+    "dns": {
+      "TXT": [
+        "facebook-domain-verification="
+      ]
+    },
+    "icon": "Meta.svg",
+    "saas": true,
+    "website": "https://about.meta.com"
+  },
   "MetaMap": {
     "cats": [
       69
@@ -67965,6 +68258,9 @@
     "dns": {
       "MX": [
         "outlook\\.com"
+      ],
+      "TXT": [
+        "^MS=(?:ms[\\w-]+|[0-9A-Fa-f]{40})$"
       ]
     },
     "icon": "Microsoft 365.svg",
@@ -68845,6 +69141,20 @@
       "mirakl\\.track"
     ],
     "website": "https://www.mirakl.com"
+  },
+  "Miro": {
+    "cats": [
+      19
+    ],
+    "description": "Miro is a collaborative online whiteboard and visual workspace platform.",
+    "dns": {
+      "TXT": [
+        "miro-verification="
+      ]
+    },
+    "icon": "Miro.png",
+    "saas": true,
+    "website": "https://miro.com"
   },
   "mirrAR": {
     "cats": [
@@ -70070,6 +70380,20 @@
     "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage.",
     "icon": "MongoDB.svg",
     "website": "https://www.mongodb.org"
+  },
+  "MongoDB Atlas": {
+    "cats": [
+      34
+    ],
+    "description": "MongoDB Atlas is MongoDB's managed multi-cloud database service.",
+    "dns": {
+      "TXT": [
+        "mongodb-site-verification="
+      ]
+    },
+    "icon": "MongoDB.svg",
+    "saas": true,
+    "website": "https://www.mongodb.com/atlas"
   },
   "Mongrel": {
     "cats": [
@@ -76195,6 +76519,20 @@
     "saas": true,
     "website": "https://www.open-xchange.com/"
   },
+  "OpenAI": {
+    "cats": [
+      112
+    ],
+    "description": "OpenAI provides the GPT family of models and the ChatGPT product line.",
+    "dns": {
+      "TXT": [
+        "openai-domain-verification="
+      ]
+    },
+    "icon": "OpenAI.svg",
+    "saas": true,
+    "website": "https://openai.com"
+  },
   "OpenBSD httpd": {
     "cats": [
       22
@@ -78773,6 +79111,20 @@
     ],
     "website": "https://www.palbin.com"
   },
+  "Palo Alto Networks": {
+    "cats": [
+      16
+    ],
+    "description": "Palo Alto Networks is a network and cloud security vendor.",
+    "dns": {
+      "TXT": [
+        "paloaltonetworks-site-verification="
+      ]
+    },
+    "icon": "Palo Alto Networks.svg",
+    "saas": true,
+    "website": "https://www.paloaltonetworks.com"
+  },
   "Palo Alto Networks - GlobalProtect": {
     "cats": [
       46
@@ -79088,6 +79440,20 @@
       "(?:((?:\\d+\\.)+\\d+)\\/)?parallax(?:\\/assets\\/js)?(?:\\/jquery)?(?:\\/scripts)?(?:\\/wow)?(?:[_\\.]move)?(?:\\.inview)?(?:\\.pkgd)?(?:\\.scrolling)?(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://github.com/pixelcog/parallax.js"
+  },
+  "Parallels": {
+    "cats": [
+      46
+    ],
+    "description": "Parallels provides virtualization and remote application delivery software, including Parallels Desktop and Parallels RAS.",
+    "dns": {
+      "TXT": [
+        "parallels-domain-verification="
+      ]
+    },
+    "icon": "Parallels.png",
+    "saas": true,
+    "website": "https://www.parallels.com"
   },
   "parcel": {
     "cats": [
@@ -80519,6 +80885,11 @@
       58
     ],
     "description": "Pendo is a product analytics platform used in release to enrich the product experience and provide insights to the product management team.",
+    "dns": {
+      "TXT": [
+        "pendo-domain-verification="
+      ]
+    },
     "icon": "Pendo.svg",
     "js": {
       "pendo.HOST": "\\.pendo\\.io",
@@ -83557,6 +83928,20 @@
     ],
     "website": "https://www.pocus.com"
   },
+  "Podbean": {
+    "cats": [
+      88
+    ],
+    "website": "https://podbean.com",
+    "description": "Podbean is a podcast hosting platform whose players and media are embedded on sites via podbean.com domains.",
+    "scriptSrc": [
+      "\\.podbean\\.com/"
+    ],
+    "dom": [
+      "iframe[src*='podbean.com']"
+    ],
+    "icon": "Podbean.png"
+  },
   "Podia": {
     "cats": [
       21,
@@ -84425,6 +84810,20 @@
       "scripts\\.postie\\.com/"
     ],
     "website": "https://postie.com"
+  },
+  "Postman": {
+    "cats": [
+      47
+    ],
+    "description": "Postman is an API development and testing platform.",
+    "dns": {
+      "TXT": [
+        "postman-domain-verification="
+      ]
+    },
+    "icon": "PostmanAPIDocumentation.svg",
+    "saas": true,
+    "website": "https://www.postman.com"
   },
   "Postman API Documentation": {
     "cats": [
@@ -95141,7 +95540,8 @@
     "description": "Salesforce is a cloud computing service software (SaaS) that specializes in customer relationship management (CRM).",
     "dns": {
       "TXT": [
-        "salesforce\\.com"
+        "salesforce\\.com",
+        "^00D[A-Za-z0-9]{12}="
       ]
     },
     "html": [
@@ -102670,6 +103070,20 @@
     ],
     "website": "https://get.slaask.com"
   },
+  "Slack": {
+    "cats": [
+      19
+    ],
+    "description": "Slack is a team messaging and collaboration platform.",
+    "dns": {
+      "TXT": [
+        "slack-domain-verification="
+      ]
+    },
+    "icon": "Slack.svg",
+    "saas": true,
+    "website": "https://slack.com"
+  },
   "Slapform": {
     "cats": [
       110
@@ -103311,6 +103725,20 @@
       "\\.smartrecruiters\\.com/"
     ],
     "website": "https://www.smartrecruiters.com"
+  },
+  "Smartsheet": {
+    "cats": [
+      19
+    ],
+    "description": "Smartsheet is a work management and collaborative spreadsheet platform.",
+    "dns": {
+      "TXT": [
+        "smartsheet-site-validation="
+      ]
+    },
+    "icon": "Smartsheet.png",
+    "saas": true,
+    "website": "https://www.smartsheet.com"
   },
   "SmartSite": {
     "cats": [
@@ -111687,6 +112115,11 @@
       45
     ],
     "description": "TeamViewer is a network and IT systems uptime monitoring service, formerly known as Monitis.",
+    "dns": {
+      "TXT": [
+        "teamviewer-sso-verification="
+      ]
+    },
     "icon": "TeamViewer.svg",
     "pricing": [
       "low",
@@ -117255,6 +117688,20 @@
     "icon": "Twilight CMS.png",
     "website": "https://www.twilightcms.com"
   },
+  "Twilio": {
+    "cats": [
+      47
+    ],
+    "description": "Twilio is a cloud communications platform providing SMS, voice, email and messaging APIs.",
+    "dns": {
+      "TXT": [
+        "twilio-domain-verification="
+      ]
+    },
+    "icon": "Twilio.svg",
+    "saas": true,
+    "website": "https://www.twilio.com"
+  },
   "Twilio Authy": {
     "cats": [
       69
@@ -117724,6 +118171,20 @@
     ],
     "saas": true,
     "website": "https://u-komi.com/en/"
+  },
+  "Uber": {
+    "cats": [
+      19
+    ],
+    "description": "Uber domain verification, used by Uber for Business to prove ownership of a company domain.",
+    "dns": {
+      "TXT": [
+        "uber-domain-verification="
+      ]
+    },
+    "icon": "Uber.svg",
+    "saas": true,
+    "website": "https://www.uber.com"
   },
   "Ubercart": {
     "cats": [
@@ -122353,6 +122814,20 @@
     "oss": true,
     "website": "https://vkcom.github.io/VKUI"
   },
+  "VMware CloudHealth": {
+    "cats": [
+      19
+    ],
+    "description": "CloudHealth by VMware is a multi-cloud cost management and governance platform.",
+    "dns": {
+      "TXT": [
+        "^cloudhealth="
+      ]
+    },
+    "icon": "VMware.png",
+    "saas": true,
+    "website": "https://www.vmware.com"
+  },
   "Vnda": {
     "cats": [
       6
@@ -126517,6 +126992,20 @@
     ],
     "website": "https://www.wix.com/freesitebuilder/tae-store"
   },
+  "Wiz": {
+    "cats": [
+      16
+    ],
+    "description": "Wiz is a cloud-native application protection platform (CNAPP).",
+    "dns": {
+      "TXT": [
+        "wiz-domain-verification="
+      ]
+    },
+    "icon": "Wiz.png",
+    "saas": true,
+    "website": "https://www.wiz.io"
+  },
   "Wized": {
     "cats": [
       51
@@ -129010,6 +129499,20 @@
       "apps\\.yachtsys\\.com/"
     ],
     "website": "https://www.yachtsys.com"
+  },
+  "Yahoo": {
+    "cats": [
+      19
+    ],
+    "description": "Yahoo domain verification, used to prove ownership of a domain to Yahoo services.",
+    "dns": {
+      "TXT": [
+        "yahoo-verification-key="
+      ]
+    },
+    "icon": "Yahoo.svg",
+    "saas": true,
+    "website": "https://www.yahoo.com"
   },
   "Yahoo Advertising": {
     "cats": [
@@ -131827,6 +132330,21 @@
       "wp-content/plugins/zoodpay/(?:.+\\?ver=([\\d\\.]+))?\\;version:\\1"
     ],
     "website": "https://www.zoodpay.com"
+  },
+  "Zoom": {
+    "cats": [
+      19
+    ],
+    "description": "Zoom is a video conferencing and collaboration platform.",
+    "dns": {
+      "TXT": [
+        "^ZOOM_verify_",
+        "zoom-domain-verification="
+      ]
+    },
+    "icon": "Zoom.png",
+    "saas": true,
+    "website": "https://www.zoom.com"
   },
   "Zoominfo": {
     "cats": [
