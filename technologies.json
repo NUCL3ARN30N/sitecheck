@@ -2960,6 +2960,25 @@
     ],
     "website": "https://www.advancedcustomfields.com"
   },
+  "Adventive": {
+    "cats": [
+      36
+    ],
+    "description": "Adventive is an ad-serving and rich-media advertising platform; its ad tags are served from ads.adventive.com.",
+    "dom": [
+      "script[src*=\"ads.adventive.com/\"]",
+      "img[src*=\"ads.adventive.com/\"]",
+      "iframe[src*=\"ads.adventive.com/\"]"
+    ],
+    "icon": "Adventive.png",
+    "scriptSrc": [
+      "ads\\.adventive\\.com/"
+    ],
+    "website": "https://adventive.com",
+    "xhr": [
+      "ads\\.adventive\\.com"
+    ]
+  },
   "Advert Stream": {
     "cats": [
       36
@@ -5324,6 +5343,22 @@
     "xhr": [
       "payments\\.amazon\\.com"
     ]
+  },
+  "Amazon Route 53": {
+    "cats": [
+      88
+    ],
+    "description": "Amazon Route 53 is AWS's authoritative DNS service; domains using it are served by awsdns nameservers.",
+    "dns": {
+      "NS": [
+        "\\.awsdns-\\d+\\."
+      ],
+      "SOA": [
+        "\\.awsdns-\\d+\\."
+      ]
+    },
+    "icon": "Amazon Web Services.svg",
+    "website": "https://aws.amazon.com/route53/"
   },
   "Amazon S3": {
     "cats": [
@@ -22246,6 +22281,22 @@
       "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js"
     ],
     "website": "https://www.cloudflare.com"
+  },
+  "Cloudflare DNS": {
+    "cats": [
+      88
+    ],
+    "description": "Cloudflare DNS is Cloudflare's authoritative DNS service; domains using it are served by *.ns.cloudflare.com nameservers.",
+    "dns": {
+      "NS": [
+        "\\.ns\\.cloudflare\\.com"
+      ],
+      "SOA": [
+        "\\.ns\\.cloudflare\\.com"
+      ]
+    },
+    "icon": "CloudFlare.svg",
+    "website": "https://www.cloudflare.com/application-services/products/dns/"
   },
   "Cloudflare Rocket Loader": {
     "cats": [
@@ -41842,6 +41893,24 @@
     "saas": true,
     "website": "https://freewebstore.com"
   },
+  "FreeWheel": {
+    "cats": [
+      36
+    ],
+    "description": "FreeWheel (Comcast) is a video ad-serving and ad-management platform whose ad/user-sync calls are made to FreeWheel ad servers such as fwmrm.net.",
+    "dom": [
+      "img[src*=\"fwmrm.net\"]",
+      "iframe[src*=\"fwmrm.net\"]"
+    ],
+    "icon": "FreeWheel.png",
+    "scriptSrc": [
+      "fwmrm\\.net"
+    ],
+    "website": "https://www.freewheel.com",
+    "xhr": [
+      "fwmrm\\.net"
+    ]
+  },
   "Frequenceo": {
     "cats": [
       99
@@ -46043,6 +46112,22 @@
       "Google Cloud"
     ],
     "website": "https://cloud.google.com/cdn"
+  },
+  "Google Cloud DNS": {
+    "cats": [
+      88
+    ],
+    "description": "Google Cloud DNS is Google's authoritative DNS service; domains using it are served by ns-cloud-*.googledomains.com nameservers.",
+    "dns": {
+      "NS": [
+        "ns-cloud-[a-z]\\d\\.googledomains\\.com"
+      ],
+      "SOA": [
+        "ns-cloud-[a-z]\\d\\.googledomains\\.com"
+      ]
+    },
+    "icon": "Google Cloud.svg",
+    "website": "https://cloud.google.com/dns"
   },
   "Google Cloud Load Balancing": {
     "cats": [
@@ -67924,6 +68009,26 @@
     ],
     "website": "https://metorik.com"
   },
+  "Metricool": {
+    "cats": [
+      10
+    ],
+    "description": "Metricool is a social media management and analytics platform; its website tracker loads be.js from tracker.metricool.com and exposes the beTracker global.",
+    "dom": [
+      "img[src*=\"tracker.metricool.com/\"]"
+    ],
+    "icon": "Metricool.png",
+    "js": {
+      "beTracker": ""
+    },
+    "scriptSrc": [
+      "tracker\\.metricool\\.com/"
+    ],
+    "website": "https://metricool.com",
+    "xhr": [
+      "tracker\\.metricool\\.com"
+    ]
+  },
   "Metrics Key": {
     "cats": [
       10
@@ -75523,6 +75628,26 @@
       "buynow\\.omacro\\.com"
     ],
     "website": "https://omacro.com"
+  },
+  "Omago": {
+    "cats": [
+      52
+    ],
+    "description": "Omago is an AI customer-service assistant for business websites that answers visitor questions in the customer's own language, captures leads and hands conversations over to WhatsApp.",
+    "dom": [
+      "#omago-widget-container",
+      "#omago-widget-button"
+    ],
+    "icon": "Omago.svg",
+    "pricing": [
+      "freemium",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "app\\.omago\\.ai/widget\\.js"
+    ],
+    "website": "https://omago.ai"
   },
   "Omeda": {
     "cats": [
@@ -85883,6 +86008,24 @@
     ],
     "website": "https://www.printful.com/"
   },
+  "Printify": {
+    "cats": [
+      6
+    ],
+    "description": "Printify is a print-on-demand and dropshipping platform integrated into e-commerce stores that serves product assets from Printify domains.",
+    "dom": [
+      "img[src*=\"printify.com\"]",
+      "img[src*=\"images-api.printify.com\"]"
+    ],
+    "icon": "Printify.png",
+    "scriptSrc": [
+      "printify\\.com"
+    ],
+    "website": "https://printify.com",
+    "xhr": [
+      "printify\\.com"
+    ]
+  },
   "Printlane": {
     "cats": [
       76
@@ -86736,6 +86879,21 @@
     ],
     "saas": true,
     "website": "https://www.proprofs.com/quiz-school"
+  },
+  "Proserve": {
+    "cats": [
+      88
+    ],
+    "description": "Proserve is a Dutch managed-hosting group; hosted sites use its nameserver brands dn-s.nl, appserved.nl and firstfind.nl.",
+    "dns": {
+      "NS": [
+        "dn-s\\.nl",
+        "appserved\\.nl",
+        "firstfind\\.n(?:l|et)"
+      ]
+    },
+    "icon": "Proserve.png",
+    "website": "https://proserve.nl"
   },
   "ProSites": {
     "cats": [
@@ -109205,6 +109363,17 @@
     ],
     "website": "https://suitecrm.com"
   },
+  "SuiteDash": {
+    "cats": [
+      53
+    ],
+    "description": "SuiteDash is an all-in-one business/CRM and client portal platform whose portals and embedded forms are hosted on app.suitedash.com.",
+    "icon": "SuiteDash.png",
+    "scriptSrc": [
+      "app\\.suitedash\\.com"
+    ],
+    "website": "https://suitedash.com"
+  },
   "Suiteshare": {
     "cats": [
       52
@@ -131139,6 +131308,23 @@
       "Cart Functionality"
     ],
     "website": "https://www.zeald.com"
+  },
+  "Zeeg": {
+    "cats": [
+      72
+    ],
+    "description": "Zeeg is an appointment-scheduling platform whose booking widgets are embedded via assets.zeeg.me.",
+    "icon": "Zeeg.png",
+    "js": {
+      "Zeeg": ""
+    },
+    "scriptSrc": [
+      "assets\\.zeeg\\.me/embed\\.min\\.js"
+    ],
+    "website": "https://zeeg.me",
+    "xhr": [
+      "(?:api|assets|uploads|page-analytics)\\.zeeg\\.me"
+    ]
   },
   "ZeeMaps": {
     "cats": [
