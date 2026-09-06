@@ -9540,6 +9540,10 @@
     "headers": {
       "Content-Security-Policy": "\\.authorize\\.net\\s"
     },
+    "html": [
+      "authorizenet\\\\?/directpost_payment",
+      "js\\.authorize\\.net"
+    ],
     "icon": "authorize.net.svg",
     "js": {
       "config.authorizenet_public_client_key": ""
@@ -20733,6 +20737,29 @@
     ],
     "website": "https://consumers.citruspay.com/"
   },
+  "cituro": {
+    "cats": [
+      72
+    ],
+    "description": "cituro is a German online appointment-scheduling tool whose booking widget can be embedded on customer websites.",
+    "dom": [
+      "iframe[src*='cituro.com']"
+    ],
+    "icon": "cituro.png",
+    "js": {
+      "cituroLoader": "",
+      "cituroOptions": "",
+      "cituroWidget": "",
+      "buildCituroOptions": ""
+    },
+    "scriptSrc": [
+      "app\\.cituro\\.com/"
+    ],
+    "website": "https://www.cituro.com",
+    "xhr": [
+      "(?:app|cdn)\\.cituro\\.com"
+    ]
+  },
   "City Hive": {
     "cats": [
       6
@@ -21232,6 +21259,25 @@
       "api\\.clearout\\.io"
     ],
     "website": "https://clearout.io"
+  },
+  "Clearpay": {
+    "cats": [
+      41,
+      91
+    ],
+    "description": "Clearpay is the UK and EU brand of Afterpay, a buy-now-pay-later payment service that lets shoppers split purchases into interest-free instalments.",
+    "icon": "Clearpay.png",
+    "js": {
+      "Clearpay": "",
+      "clearpay_js_snippet_version": "",
+      "clearpay_shop_currency": "",
+      "clearpay_product": ""
+    },
+    "scriptSrc": [
+      "static\\.afterpay\\.com/shopify-clearpay-javascript\\.js",
+      "\\.clearpay\\.co\\.uk/"
+    ],
+    "website": "https://www.clearpay.co.uk"
   },
   "ClearSale": {
     "cats": [
@@ -28073,6 +28119,35 @@
     "saas": true,
     "website": "https://dandomain.dk"
   },
+  "DanDomain email": {
+    "cats": [
+      75
+    ],
+    "description": "DanDomain email is the email hosting service provided by DanDomain, including webmail and Microsoft 365 plans.",
+    "dns": {
+      "MX": [
+        "mx\\d*\\.dandomain\\.dk"
+      ]
+    },
+    "icon": "DanDomain email.png",
+    "website": "https://dandomain.dk/e-mail"
+  },
+  "DanDomain hosting": {
+    "cats": [
+      88
+    ],
+    "description": "DanDomain hosting is a Danish web hosting and domain registration service, part of the team.blue group.",
+    "dns": {
+      "NS": [
+        "\\.dandomain\\.dk"
+      ],
+      "SOA": [
+        "\\.dandomain\\.dk"
+      ]
+    },
+    "icon": "DanDomain hosting.png",
+    "website": "https://dandomain.dk"
+  },
   "DanDomain Webshop": {
     "cats": [
       6
@@ -34608,6 +34683,24 @@
       "([\\d\\.]+)?(?:/dist)?/email\\.min\\.js\\;version:\\1"
     ],
     "website": "https://www.emailjs.com"
+  },
+  "EmailOctopus": {
+    "cats": [
+      75
+    ],
+    "description": "EmailOctopus is an email marketing and newsletter service whose signup forms are embedded on customer websites.",
+    "icon": "EmailOctopus.png",
+    "js": {
+      "emailOctopus": "",
+      "emailoctopus": ""
+    },
+    "scriptSrc": [
+      "emailoctopus\\.com/bundles"
+    ],
+    "website": "https://emailoctopus.com",
+    "xhr": [
+      "emailoctopus\\.com"
+    ]
   },
   "Emanda": {
     "cats": [
@@ -44468,7 +44561,8 @@
     ],
     "saas": true,
     "scripts": [
-      "service\\.giosg\\.com"
+      "service\\.giosg\\.com",
+      "giosg\\.com"
     ],
     "website": "https://www.giosg.com"
   },
@@ -46354,6 +46448,20 @@
       "ajax\\.googleapis\\.com/ajax/libs/"
     ],
     "website": "https://developers.google.com/speed/libraries"
+  },
+  "Google Looker Studio": {
+    "cats": [
+      10
+    ],
+    "description": "Google Looker Studio (formerly Google Data Studio) is a free tool for creating and embedding interactive dashboards and reports.",
+    "dom": [
+      "iframe[src*='lookerstudio.google.com'], iframe[src*='datastudio.google.com']"
+    ],
+    "headers": {
+      "Content-Security-Policy": "(?:lookerstudio|datastudio)\\.google\\.com"
+    },
+    "icon": "Google Looker Studio.png",
+    "website": "https://cloud.google.com/looker-studio"
   },
   "Google Maps": {
     "cats": [
@@ -48373,6 +48481,24 @@
       "\\.hapana\\.com/"
     ],
     "website": "https://www.hapana.com"
+  },
+  "Happierleads": {
+    "cats": [
+      10
+    ],
+    "description": "Happierleads is a B2B visitor-identification and lead-generation platform that reveals the companies visiting a website.",
+    "icon": "Happierleads.png",
+    "js": {
+      "Happierleads": "",
+      "hlRunning": ""
+    },
+    "scriptSrc": [
+      "rest\\.happierleads\\.com"
+    ],
+    "website": "https://www.happierleads.com",
+    "xhr": [
+      "(?:rest|session-recordings)\\.happierleads\\.com"
+    ]
   },
   "Happy Meal Prep": {
     "cats": [
@@ -51639,6 +51765,22 @@
       "\\.hyperlane\\.co/"
     ],
     "website": "https://hyperlane.co"
+  },
+  "Hypernode": {
+    "cats": [
+      88
+    ],
+    "description": "Hypernode is a managed ecommerce hosting platform by Byte (Netherlands); hosted domains use ns*.hypernode.com nameservers or point at *.hypernode.io via CNAME.",
+    "dns": {
+      "CNAME": [
+        "\\.hypernode\\.io"
+      ],
+      "NS": [
+        "\\.hypernode\\.com"
+      ]
+    },
+    "icon": "Hypernode.png",
+    "website": "https://www.hypernode.com"
   },
   "Hyperspeed": {
     "cats": [
@@ -55988,6 +56130,23 @@
       "jobboardfire\\.twic\\.pics"
     ],
     "website": "https://www.jobboardfire.com"
+  },
+  "Job Boardly": {
+    "cats": [
+      101
+    ],
+    "cookies": {
+      "_job_boardly_session": ""
+    },
+    "description": "Job Boardly is a SaaS platform for creating and running hosted job boards without code.",
+    "icon": "Job Boardly.png",
+    "scriptSrc": [
+      "assets\\.jobboardly\\.com/"
+    ],
+    "website": "https://www.jobboardly.com",
+    "xhr": [
+      "(?:assets|cdn)\\.jobboardly\\.com"
+    ]
   },
   "JobAdder": {
     "cats": [
@@ -72585,6 +72744,19 @@
     ],
     "website": "https://www.nativo.com"
   },
+  "Natro": {
+    "cats": [
+      88
+    ],
+    "description": "Natro is a Turkish web hosting and domain registration provider; hosted domains use natrohost.com nameservers.",
+    "dns": {
+      "NS": [
+        "natrohost\\.com",
+        "natro\\.com"
+      ]
+    },
+    "website": "https://www.natro.com"
+  },
   "Natural Intelligence": {
     "cats": [
       96
@@ -84286,6 +84458,24 @@
     ],
     "website": "https://www.podpage.com"
   },
+  "Podscribe": {
+    "cats": [
+      36
+    ],
+    "description": "Podscribe is an IAB-certified podcast and audio ad measurement platform; podcast sites link to their transcripts on app.podscribe.ai and advertiser sites load its attribution tags from podscribe hosts.",
+    "dom": [
+      "a[href*=\"app.podscribe.ai/\"]",
+      "img[src*=\"podscribe.com/\"]"
+    ],
+    "icon": "Podscribe.png",
+    "scriptSrc": [
+      "podscribe\\.(?:ai|com)/"
+    ],
+    "website": "https://podscribe.com",
+    "xhr": [
+      "podscribe\\.(?:ai|com)"
+    ]
+  },
   "Podsights": {
     "cats": [
       36
@@ -88930,6 +89120,16 @@
     ],
     "website": "https://www.quantummetric.com/"
   },
+  "Quantyoo": {
+    "cats": [
+      76
+    ],
+    "html": [
+      "https://quantyoo\\.de"
+    ],
+    "icon": "Quantyoo.png",
+    "website": "https://quantyoo.de"
+  },
   "Quarto": {
     "cats": [
       57
@@ -91262,6 +91462,23 @@
     ],
     "saas": true,
     "website": "https://recop.jp"
+  },
+  "Recova": {
+    "cats": [
+      10
+    ],
+    "description": "Recova is an e-commerce conversion and cart-recovery tool that tracks shopper behavior to recover abandoned carts.",
+    "icon": "Recova.png",
+    "js": {
+      "recovaOrderTracking": ""
+    },
+    "scriptSrc": [
+      "api\\.recova\\.ai/recova_client(?:\\.min)?\\.js"
+    ],
+    "website": "https://recova.ai",
+    "xhr": [
+      "api\\.recova\\.ai"
+    ]
   },
   "RecoverMyCart": {
     "cats": [
@@ -97032,6 +97249,34 @@
     ],
     "website": "https://www.scorpion.co/"
   },
+  "Scrapive": {
+    "cats": [
+      32,
+      90,
+      5
+    ],
+    "description": "Scrapive is an on-site and WhatsApp marketing platform that provides sales and conversion optimization solutions for ecommerce websites.",
+    "icon": "Scrapive.png",
+    "js": {
+      "__SCRAPIVE_EMBED__": "",
+      "__SCRAPIVE_LOADED__": ""
+    },
+    "pricing": [
+      "poa",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "scrapive\\.com/scrapive-[a-z-]+\\.iife\\.js"
+    ],
+    "scripts": [
+      "window\\.__SCRAPIVE_LOADED__"
+    ],
+    "website": "https://scrapive.com",
+    "xhr": [
+      "tygo\\.scrapive\\.com"
+    ]
+  },
   "Screenfull.js": {
     "cats": [
       59
@@ -101869,16 +102114,14 @@
       72
     ],
     "description": "SimplyBook.me is an online appointment scheduling and booking software.",
-    "dom": {
-      "a[href*='.simplybook.'][target='_blank']": {
-        "attributes": {
-          "href": "\\.simplybook\\.(?:asia|it|me)"
-        }
-      }
-    },
+    "dom": [
+      "a[href*='.simplybook.'][target='_blank']",
+      "iframe[src*='.simplybook.it']"
+    ],
     "icon": "SimplyBook.me.svg",
     "js": {
-      "configSoinSimplyPush": ""
+      "configSoinSimplyPush": "",
+      "SimplybookWidget": ""
     },
     "pricing": [
       "freemium",
@@ -101887,7 +102130,8 @@
     ],
     "saas": true,
     "scriptSrc": [
-      "\\.simplybook\\.(?:asia|it|me)"
+      "\\.simplybook\\.(?:asia|it|me)",
+      "widget\\.simplybook\\.it"
     ],
     "website": "https://simplybook.me"
   },
@@ -109666,7 +109910,9 @@
       "cdn\\.supabase\\.com"
     ],
     "scripts": [
-      "\\.supabase\\.co/"
+      "\\.supabase\\.co/",
+      "cdn\\.jsdelivr.net/npm/@supabase",
+      "unpkg\\.com/@supabase"
     ],
     "website": "https://supabase.com"
   },
@@ -124953,6 +125199,22 @@
     },
     "website": "https://webedition.de/en"
   },
+  "Webempresa": {
+    "cats": [
+      88
+    ],
+    "description": "Webempresa is a Spanish web hosting provider specialised in WordPress, WooCommerce and Joomla hosting.",
+    "dns": {
+      "NS": [
+        "ns\\d+\\.webempresa\\.eu"
+      ],
+      "SOA": [
+        "ns\\d+\\.webempresa\\.eu"
+      ]
+    },
+    "icon": "Webempresa.png",
+    "website": "https://www.webempresa.com"
+  },
   "WebEngage": {
     "cats": [
       32,
@@ -125223,6 +125485,27 @@
       "\\.webim\\.ru/"
     ],
     "website": "https://webim.ru"
+  },
+  "WebinarGeek": {
+    "cats": [
+      103
+    ],
+    "description": "WebinarGeek is a Dutch webinar platform for hosting, embedding and marketing live and automated webinars.",
+    "dom": [
+      "iframe[src*='webinargeek.com'], script[src*='embed.webinargeek.com']"
+    ],
+    "icon": "WebinarGeek.svg",
+    "js": {
+      "GeekEmbedStart": "",
+      "GeekEmbedLoaded": ""
+    },
+    "scriptSrc": [
+      "embed\\.webinargeek\\.com"
+    ],
+    "website": "https://www.webinargeek.com",
+    "xhr": [
+      "\\.webinargeek\\.com"
+    ]
   },
   "Webinaris": {
     "cats": [
@@ -127632,7 +127915,12 @@
     ],
     "description": "WooCommerce Subscriptions primarily allows you to create and sell subscription products from your WooCommerce shop.",
     "dom": [
-      "link[href*='/wp-content/plugins/woocommerce-subscriptions/']"
+      "link[href*='/wp-content/plugins/woocommerce-subscriptions/']",
+      "link[href*=\"/plugins/woocommerce-subscriptions/\"]",
+      "script[src*=\"/plugins/woocommerce-subscriptions/\"]"
+    ],
+    "html": [
+      "/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/build"
     ],
     "icon": "WooCommerce.svg",
     "implies": [
@@ -129147,6 +129435,28 @@
     ],
     "website": "https://wysibb.com"
   },
+  "Wysistat": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "wysistat": ""
+    },
+    "description": "Wysistat is a French web analytics and audience measurement service.",
+    "icon": "Wysistat.png",
+    "js": {
+      "_wsq": "",
+      "_wysistat": "",
+      "wysistat": ""
+    },
+    "scriptSrc": [
+      "www\\.wysistat\\.(?:com|net)/"
+    ],
+    "website": "https://www.wysistat.net",
+    "xhr": [
+      "wysistat\\.(?:com|net)"
+    ]
+  },
   "X-Cart": {
     "cats": [
       6
@@ -130021,7 +130331,7 @@
     },
     "scriptSrc": [
       "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js",
-      "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
+      "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/(?:tag|watch)\\.js"
     ],
     "website": "https://metrika.yandex.com"
   },
