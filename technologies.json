@@ -37584,6 +37584,33 @@
     "saas": true,
     "website": "https://fabric.inc"
   },
+  "Face Age": {
+    "cats": [
+      59,
+      112
+    ],
+    "description": "Face Age is an AI-powered JavaScript SDK for facial skin analysis.",
+    "dom": [
+      ".faceAge-main-module",
+      "iframe#FaceAge-module-iframe"
+    ],
+    "icon": "FaceAge.svg",
+    "js": {
+      "FaceAge.prototype.render": ""
+    },
+    "oss": true,
+    "saas": true,
+    "scriptSrc": [
+      "cdn\\.jsdelivr\\.net/npm/face-age@([\\d.]+)\\;version:\\1",
+      "cdn\\.jsdelivr\\.net/npm/face-age(?:/|$)",
+      "unpkg\\.com/face-age@([\\d.]+)\\;version:\\1",
+      "unpkg\\.com/face-age(?:/|$)"
+    ],
+    "website": "https://getfaceage.com",
+    "xhr": [
+      "core\\.getfaceage\\.com"
+    ]
+  },
   "Facebook Ads": {
     "cats": [
       36
@@ -48376,6 +48403,38 @@
     "icon": "HackerOne.svg",
     "saas": true,
     "website": "https://www.hackerone.com"
+  },
+  "Hackle": {
+    "cats": [
+      74,
+      85,
+      10,
+      32,
+      53
+    ],
+    "description": "Hackle is an experimentation and growth platform providing A/B testing, feature flags, product analytics, and behavioral messaging.",
+    "html": [
+      "HACKLE_SDK_KEY"
+    ],
+    "icon": "Hackle.png",
+    "js": {
+      "HACKLE_PRELOAD_CLIENT": "",
+      "Hackle": "",
+      "HacklePlugin": "",
+      "_hackle": "",
+      "_hackleCafe24App": "",
+      "hackleClient": ""
+    },
+    "saas": true,
+    "scriptSrc": [
+      "@hackler/javascript-sdk@([\\d.]+)/\\;version:\\1",
+      "@hackler/javascript-sdk",
+      "\\.hackle\\.io/"
+    ],
+    "website": "https://hackle.io",
+    "xhr": [
+      "(?:sdk-api|client-sdk|event-api|event|monitoring|static|cdn\\d*)\\.hackle\\.io"
+    ]
   },
   "Haddock": {
     "cats": [
@@ -131444,6 +131503,26 @@
     },
     "saas": true,
     "website": "https://www.youcms.eu"
+  },
+  "YouDraw": {
+    "cats": [
+      6
+    ],
+    "description": "YouDraw is a Brazilian ecommerce and print-on-demand platform with hosted storefronts (YD Store).",
+    "headers": {
+      "X-Generator": "^YouDraw"
+    },
+    "icon": "YouDraw.png",
+    "meta": {
+      "generator": "^YouDraw"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://youdraw.com.br"
   },
   "Youform": {
     "cats": [
