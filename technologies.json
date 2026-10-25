@@ -9353,6 +9353,16 @@
     ],
     "website": "https://www.webmandesign.eu/portfolio/auberge-wordpress-theme/"
   },
+  "audienzz": {
+    "cats": [
+      1
+    ],
+    "icon": "audienzz.png",
+    "js": {
+      "audienzz": ""
+    },
+    "website": "https://audienzz.ch"
+  },
   "AudioEye": {
     "cats": [
       68
@@ -9386,6 +9396,23 @@
     ],
     "icon": "Audiohook.svg",
     "website": "https://www.audiohook.com"
+  },
+  "Audion": {
+    "cats": [
+      36
+    ],
+    "description": "Audion is a digital audio advertising company; its Audion360 podcast player is embedded on publisher pages and loads from 360.audion.fm.",
+    "dom": [
+      "#audion360-podcast-player-init, .audion-reader"
+    ],
+    "icon": "Audion.png",
+    "scriptSrc": [
+      "\\.360\\.audion\\.fm/"
+    ],
+    "website": "https://www.audion.fm",
+    "xhr": [
+      "\\.audion\\.fm"
+    ]
   },
   "Auglio": {
     "cats": [
@@ -10119,6 +10146,19 @@
     ],
     "saas": true,
     "website": "https://www.avanser.com"
+  },
+  "AvantisVideo": {
+    "cats": [
+      36
+    ],
+    "icon": "AvantisVideo.png",
+    "js": {
+      "avantisJS": ""
+    },
+    "scripts": [
+      "//cdn\\.avantisvideo\\.com"
+    ],
+    "website": "https://www.avantisvideo.com"
   },
   "Avasam": {
     "cats": [
@@ -11994,6 +12034,16 @@
       "app\\.bestie\\.ai"
     ],
     "website": "https://www.bestie.ai"
+  },
+  "bet365": {
+    "cats": [
+      19
+    ],
+    "html": [
+      "<a [^>]*href=['\"]http[s]?://www\\.bet365"
+    ],
+    "icon": "bet365.png",
+    "website": "https://www.bet365affiliates.com"
   },
   "BeTheme": {
     "cats": [
@@ -14375,6 +14425,16 @@
       "api\\.bontii\\.dk/"
     ],
     "website": "https://bontii.dk"
+  },
+  "Book Like A Boss": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "a[href*='bookme.name']"
+    ],
+    "icon": "Book Like A Boss.png",
+    "website": "https://www.booklikeaboss.com/"
   },
   "Book N Pay": {
     "cats": [
@@ -22312,6 +22372,22 @@
     ],
     "saas": true,
     "website": "https://cloudguard.ir"
+  },
+  "Cloudbac": {
+    "cats": [
+      1,
+      51
+    ],
+    "description": "Cloudbac is a SaaS website builder and hosting platform for businesses.",
+    "headers": {
+      "X-Powered-By": "^Cloudbac$"
+    },
+    "icon": "Cloudbac.svg",
+    "meta": {
+      "generator": "^Cloudbac$"
+    },
+    "saas": true,
+    "website": "https://www.cloudbac.com"
   },
   "Cloudbeds": {
     "cats": [
@@ -104375,6 +104451,16 @@
     ],
     "website": "https://smarterclick.com"
   },
+  "SmartFrame": {
+    "cats": [
+      95
+    ],
+    "html": [
+      "<link rel=\"dns-prefetch\" href=\"//static\\.smartframe\\.io\""
+    ],
+    "icon": "SmartFrame.png",
+    "website": "https://smartframe.io"
+  },
   "SmartFront": {
     "cats": [
       108,
@@ -105300,6 +105386,21 @@
     ],
     "website": "https://www.soci.ai"
   },
+  "SociableKIT": {
+    "cats": [
+      5
+    ],
+    "description": "Sociable kit",
+    "html": [
+      "<iframe[^>]*src=[^>]*widgets\\.sociablekit\\.com",
+      "<img[^>]*src=[^>]*images\\.sociablekit\\.com"
+    ],
+    "icon": "SociableKIT.png",
+    "scriptSrc": [
+      "widgets\\.sociablekit\\.com"
+    ],
+    "website": "https://www.sociablekit.com/"
+  },
   "Social Pinpoint": {
     "cats": [
       1
@@ -105894,6 +105995,16 @@
     },
     "saas": true,
     "website": "https://sendsonar.com"
+  },
+  "Sonares": {
+    "cats": [
+      5
+    ],
+    "html": [
+      "<iframe [^>]*src=[^>]*content\\.sonares\\.org/[^\"/]+"
+    ],
+    "icon": "Sonares.png",
+    "website": "https://sonares.org/"
   },
   "SonarQube": {
     "cats": [
@@ -107548,6 +107659,16 @@
       "\\.sprocket\\.bz/"
     ],
     "website": "https://www.sprocket.bz"
+  },
+  "SproutStudio": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.sproutstudio.com']"
+    ],
+    "icon": "SproutStudio.png",
+    "website": "https://getsproutstudio.com"
   },
   "Spruce": {
     "cats": [
@@ -112624,6 +112745,16 @@
     ],
     "website": "https://www.taurosmedia.com"
   },
+  "Tave": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='tave.com']"
+    ],
+    "icon": "Tave.png",
+    "website": "https://tave.com"
+  },
   "Tawk.to": {
     "cats": [
       52
@@ -113259,6 +113390,11 @@
       1
     ],
     "description": "Terminalfour is a digital engagement and web content management platform for higher education.",
+    "html": [
+      "<[^>]+terminalfour\\.net/",
+      "<[^>]+t4Edit-page",
+      "<[^>]+/terminalfour/page/(?:section|content|directEdit)"
+    ],
     "icon": "Terminalfour.svg",
     "meta": {
       "generator": "TERMINALFOUR"
@@ -116761,6 +116897,16 @@
     "saas": true,
     "website": "https://www.traek.io"
   },
+  "Traffective": {
+    "cats": [
+      36
+    ],
+    "icon": "Traffective.png",
+    "js": {
+      "traffectiveLib": ""
+    },
+    "website": "https://www.traffective.com"
+  },
   "TrafficGuard": {
     "cats": [
       36
@@ -118081,6 +118227,17 @@
     ],
     "saas": true,
     "website": "https://tutorlms.com"
+  },
+  "Tutorbird": {
+    "cats": [
+      72
+    ],
+    "dom": [
+      "iframe[src*='.tutorbird.com']",
+      "a[href*='.tutorbird.com']"
+    ],
+    "icon": "Tutorbird.png",
+    "website": "https://tutorbird.com"
   },
   "TutorCruncher": {
     "cats": [
@@ -121192,6 +121349,18 @@
       "www\\.schedulicity\\.com"
     ],
     "website": "https://www.vagaro.com/pro/schedulicity"
+  },
+  "Valorsic Studio": {
+    "cats": [
+      59
+    ],
+    "dom": {
+      "[data-valorsic-studio]": {
+        "exists": ""
+      }
+    },
+    "icon": "Valorsic Studio.png",
+    "website": "https://valorsic.studio"
   },
   "Valuad": {
     "cats": [
@@ -128540,9 +128709,6 @@
       "wp-embed\\.min\\.js",
       "wp-static\\.assets\\.sh/"
     ],
-    "scripts": [
-      "/wp-content"
-    ],
     "website": "https://wordpress.org"
   },
   "WordPress Block Editor": {
@@ -132336,6 +132502,23 @@
     ],
     "website": "https://www.zendesk.com/platform/conversations"
   },
+  "Zendesk Widget": {
+    "cats": [
+      5
+    ],
+    "dom": [
+      "script#ze-snippet"
+    ],
+    "icon": "Zendesk Widget.png",
+    "js": {
+      "zEACLoaded": "",
+      "zEmbed": ""
+    },
+    "scriptSrc": [
+      "static\\.zdassets\\.com/ekr/snippet\\.js"
+    ],
+    "website": "https://developer.zendesk.com"
+  },
   "Zenfolio": {
     "cats": [
       7
@@ -133303,6 +133486,19 @@
     "icon": "Zoom.png",
     "saas": true,
     "website": "https://www.zoom.com"
+  },
+  "Zoomd": {
+    "cats": [
+      36
+    ],
+    "icon": "Zoomd.png",
+    "js": {
+      "Zoomd": ""
+    },
+    "scripts": [
+      "sphereup\\.com/zoomd"
+    ],
+    "website": "https://zoomd.com"
   },
   "Zoominfo": {
     "cats": [
